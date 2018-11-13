@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>isobase</title>
+
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link id="toggle-styles" rel="stylesheet" href="ether/dist/css/base.css" type="text/css">
+    <script>
+        function toggle() {
+            var el = document.getElementById("toggle-styles");
+            if (el.href.match("ether/dist/css/base.css")) {
+                el.href = "css/main.css";    
+            }
+            else {
+                el.href = "ether/dist/css/base.css";  
+            }
+        }
+    </script>
+
+
+
+</head>
+
+<body>
+    <main>
+    <section class="container">
+            <div class="row">
+                <div class="col-md-12 col-xs-12">
+                    <h1>Isobase</h1>
+                    <p class="lead">Base styles for theming design systems.</p>
+                    <fieldset>  
+                            <legend>Structure</legend>
+                            <input type="radio" id="ether-true" name="structure" value="ether" checked onclick="toggle()">
+                            <label for="ether-true">Ether</label>
+                            <input type="radio" id="8px-true" name="structure" value="8px" onclick="toggle()">
+                            <label for="8px-true">8px</label>
+                          </fieldset>  
+                    <hr>
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <div class="row">
+                <div class="col-md-3 col-xs-12">
+                    <h2>Typography</h2>
+                </div>
+                <div class="col-md-8 col-xs-12">
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, corporis.</p>
+                    <h1>Heading 1</h1>
+                    <h2>Heading 2</h2>
+                    <h3>Heading 3</h3>
+                    <h4>Heading 4</h4>
+                    <h5>Heading 5</h5>
+                    <h6>Heading 6</h6>
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <div class="row">
+                <div class="col-md-3 col-xs-12">
+                    <h2>Spacing</h2>
+                </div>
+                <div class="col-md-8 col-xs-12">
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, corporis.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas minus ad a nostrum beatae velit, id deleniti quidem aut ipsam voluptas omnis ut fugit ratione rem non natus? Voluptate ad dolore culpa nemo cupiditate dolorem repellendus maiores corrupti illo, sit optio obcaecati natus harum impedit labore fugit? Ipsum perspiciatis sequi quas dolor, provident libero quaerat ullam quis labore officiis? Temporibus reprehenderit sed delectus omnis iste, quam optio commodi exercitationem quibusdam molestiae culpa aperiam similique minus deleniti aspernatur odit ullam eos magni saepe expedita et esse. Quae est nemo, esse labore, repellendus minima alias delectus quisquam, hic debitis consequatur sapiente odit?</p>
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <div class="row">
+                <div class="col-md-3 col-xs-12">
+                    <h2>Color</h2>
+                </div>
+                <div class="col-md-8 col-xs-12">
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, corporis.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas minus ad a nostrum beatae velit, id deleniti quidem aut ipsam voluptas omnis ut fugit ratione rem non natus? Voluptate ad dolore culpa nemo cupiditate dolorem repellendus maiores corrupti illo, sit optio obcaecati natus harum impedit labore fugit? Ipsum perspiciatis sequi quas dolor, provident libero quaerat ullam quis labore officiis? Temporibus reprehenderit sed delectus omnis iste, quam optio commodi exercitationem quibusdam molestiae culpa aperiam similique minus deleniti aspernatur odit ullam eos magni saepe expedita et esse. Quae est nemo, esse labore, repellendus minima alias delectus quisquam, hic debitis consequatur sapiente odit?</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
