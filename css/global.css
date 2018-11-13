@@ -7,3 +7,8 @@
     background: lightsalmon;
     height: 0;
 }
+
+hr {
+    border-style: solid;
+    color: lightgrey;
+}
