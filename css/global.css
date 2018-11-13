@@ -1,0 +1,9 @@
+.space-demo {
+    padding: 2ex 0;
+}
+
+.spacer {
+    display: block;
+    background: lightsalmon;
+    height: 0;
+}

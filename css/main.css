@@ -60,3 +60,35 @@ section {
     padding-top: 40px;
     padding-bottom: 40px;
 }
+
+
+
+/* Spacers */
+
+.spacer-xxs {
+    padding-bottom: 0.25rem; 
+}
+
+.spacer-xs {
+    padding-bottom: 0.5rem;
+}
+
+.spacer-sm {
+    padding-bottom: 1rem;
+}
+
+.spacer-md {
+    padding-bottom: 2rem;
+}
+
+.spacer-lg {
+    padding-bottom: 3rem;
+}
+
+.spacer-xl {
+    padding-bottom: 4rem;
+}
+
+.spacer-xxl {
+    padding-bottom: 5rem;
+}
