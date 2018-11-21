@@ -1,0 +1,24 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 66%;
+    grid-template-rows: 2fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    justify-items: stretch;
+    align-items: stretch;
+ }
+
+ .container-full {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    justify-items: stretch;
+    align-items: stretch;
+ }
+
+ section {
+     max-width: 75em;
+     margin: 0 auto;
+ }
