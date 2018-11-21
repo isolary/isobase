@@ -13,9 +13,8 @@
   "author": "Isolary",
   "license": "ISC",
   "devDependencies": {
+    "@brainly/html-sketchapp": "^4.0.1",
     "html-sketchapp-cli": "^0.6.2"
   },
-  "dependencies": {
-    "@brainly/html-sketchapp": "^4.0.1"
-  }
+  "dependencies": {}
 }
