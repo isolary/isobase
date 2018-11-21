@@ -1,0 +1,21 @@
+{
+  "name": "isobase",
+  "version": "1.0.0",
+  "description": "Themeable design system starter.",
+  "main": "index.js",
+  "scripts": {
+    "html-sketchapp-install": "html-sketchapp install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.isolary.com:design/isobase.git"
+  },
+  "author": "Isolary",
+  "license": "ISC",
+  "devDependencies": {
+    "html-sketchapp-cli": "^0.6.2"
+  },
+  "dependencies": {
+    "@brainly/html-sketchapp": "^4.0.1"
+  }
+}
