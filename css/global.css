@@ -1,11 +1,11 @@
 .space-demo {
-    padding: 2ex 0;
+    margin: 2ex 0;
+    background: lightsalmon;
 }
 
 .spacer {
     display: block;
-    background: lightsalmon;
-    height: 0;
+    /* height: 0; */
 }
 
 hr {

@@ -7,45 +7,33 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Isobase</title>
 
-    <link rel="stylesheet" href="css/normalize.css" type="text/css">
-    <link rel="stylesheet" href="css/global.css" type="text/css">
-    <link id="toggle-styles" rel="stylesheet" href="ether/dist/css/base.css" type="text/css">
-    <script>
-        function toggle() {
-            var el = document.getElementById("toggle-styles");
-            if (el.href.match("ether/dist/css/base.css")) {
-                el.href = "css/main.css";
-            }
-            else {
-                el.href = "ether/dist/css/base.css";
-            }
-        }
-    </script>
+    <link rel="stylesheet" href="dist/css/base.css" type="text/css">
+    <!-- <link rel="stylesheet" href="css/global.css" type="text/css"> -->
 
 </head>
 
 <body>
     <main>
-        <section class="container">
-            <div class="row">
-                <div class="col-md-12 col-xs-12">
+        <section class="container-full">
+
+                <div>
                     <img class="logo" src="img/isobase.png" alt="Isobase Logo">
                     <h1>Isobase</h1>
                     <p class="lead">An extendable starter design/development system aimed at starting with the basics +
                         a few common components.</p>
                     <hr>
                 </div>
-            </div>
+
         </section>
         <section class="container">
-            <div class="row">
-                <div class="col-md-3 col-xs-12">
+
+                <div>
                     <h2>Typography</h2>
                 </div>
-                <div class="col-md-9 col-xs-12">
+
+                <div>
                     <p class="lead">Typography should change in scale and size according to context.</p>
-                </div>
-                <div class="col-md-9 col-md-offset-3 col-xs-12">
+
                     <p>Typographic headings</p>
                     <hr>
                     <h1 data-sketch-text="Heading 1">Heading 1</h1>
@@ -54,39 +42,31 @@
                     <h4 data-sketch-text="Heading 4">Heading 4</h4>
                     <h5 data-sketch-text="Heading 5">Heading 5</h5>
                     <h6 data-sketch-text="Heading 6">Heading 6</h6>
+                    <p>Example Content</p>
+                    <hr>
+                    <h1>This is an article</h1>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, aut. Provident quibusdam modi voluptatibus velit qui ratione dolore aliquam recusandae.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, quae quia consequuntur, magni hic officiis, dolorem maiores enim deserunt sequi neque iusto sapiente consequatur amet illum. Atque itaque hic, quaerat ipsum assumenda, velit nostrum sapiente culpa accusamus consequuntur voluptates, magni quia placeat molestiae? Dicta consectetur exercitationem unde enim quod hic labore soluta autem, maxime reprehenderit harum, optio consequatur, quo amet.</p>
+                    <p>Doloremque beatae praesentium nisi dolore laborum! Delectus ipsa cupiditate voluptatum harum explicabo dignissimos dolorem? Illum atque similique error cupiditate sit totam, dolor quod porro? Nostrum esse praesentium quisquam molestias sed earum quam, maxime maiores temporibus et impedit atque error minus voluptas nobis, voluptatibus neque natus excepturi non. Provident aperiam, tempore ratione odit vero adipisci facilis blanditiis aut dicta corrupti ea.</p>
                 </div>
-            </div>
+
         </section>
+
         <section class="container">
-            <div class="row">
-                <div class="col-md-3 col-xs-12">
+
+                <div>
                     <h2>Spacing</h2>
-                </div>
-                <div class="col-md-9 col-xs-12">
+
                     <p class="lead">All spacing should be based on existing values.</p>
-                    <div class="space-demo" data-sketch-symbol="Utilities/spacer-xxs">
-                        <span class="spacer spacer-xxs p-b-spacer-2xs"></span>
-                    </div>
-                    <div class="space-demo" data-sketch-symbol="Utilities/spacer-xs">
-                        <span class="spacer spacer-xs p-b-spacer-xs"></span>
-                    </div>
-                    <div class="space-demo" data-sketch-symbol="Utilities/spacer-sm">
-                        <span class="spacer spacer-sm p-b-spacer-sm"></span>
-                    </div>
-                    <div class="space-demo" data-sketch-symbol="Utilities/spacer-md">
-                        <span class="spacer spacer-md p-b-spacer-md"></span>
-                    </div>
-                    <div class="space-demo" data-sketch-symbol="Utilities/spacer-lg">
-                        <span class="spacer spacer-lg p-b-spacer-lg"></span>
-                    </div>
-                    <div class="space-demo" data-sketch-symbol="Utilities/spacer-xl">
-                        <span class="spacer spacer-xl p-b-spacer-xl"></span>
-                    </div>
-                    <div class="space-demo" data-sketch-symbol="Utilities/spacer-xxl">
-                        <span class="spacer spacer-xxl p-b-spacer-2xl"></span>
-                    </div>
+                    <div class="space-demo spacer-2xs" data-sketch-symbol="Utilities/spacer-xxs"></div>
+                    <div class="space-demo spacer-xs" data-sketch-symbol="Utilities/spacer-xs"></div>
+                    <div class="space-demo spacer-sm" data-sketch-symbol="Utilities/spacer-sm"></div>
+                    <div class="space-demo spacer-md" data-sketch-symbol="Utilities/spacer-md"></div>
+                    <div class="space-demo spacer-lg" data-sketch-symbol="Utilities/spacer-lg"></div>
+                    <div class="space-demo spacer-xl" data-sketch-symbol="Utilities/spacer-xl"></div>
+                    <div class="space-demo spacer-2xl" data-sketch-symbol="Utilities/spacer-xxl"></div>
                 </div>
-            </div>
+
         </section>
     </main>
 </body>
