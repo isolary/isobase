@@ -23,3 +23,14 @@ How to compile Ether:
 3. Files will be added to the ether/dist/css folder
 
 [Ether on Github](https://github.com/wearethescenery/ether)
+
+
+-------
+
+How to open/convert .asketch files:
+
+1. `npm install`, then run `html-sketchapp install` to install the Sketch plugin
+2. Run `html-sketchapp` in the root of the project
+3. Check the `dist/sketch` folder for files
+4. Open Sketch, go to Plugins > From *Almost* Sketch To Sketch
+5. Select "Import File(s)", select both generated files from the `dist/sketch` folder 
