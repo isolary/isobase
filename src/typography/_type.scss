@@ -1,0 +1,30 @@
+@import
+"_type-variables";
+
+p {
+    @include body;
+}
+
+h1, .h1, .heading-xxlarge {
+    @include heading-xxlarge;
+}
+  
+  h2, .h2, .heading-xlarge {
+    @include heading-xlarge;
+}
+  
+  h3, .h3, .heading-large {
+    @include heading-large;
+}
+  
+  h4, .h4, .heading-medium {
+    @include heading-medium;
+}
+  
+  h5, .h5, .heading-small {
+    @include heading-small;
+}
+  
+  h6, .h6, .heading-xsmall {
+    @include heading-xsmall;
+}

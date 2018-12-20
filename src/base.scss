@@ -9,7 +9,10 @@
 // @import "spacing/spacing";
 
 // Typography
-// @import "typography/type-variables";
+@import "typography/type";
 
 // Grid
 @import "grid/grid";
+
+// App styles, custom styles
+@import "app";
