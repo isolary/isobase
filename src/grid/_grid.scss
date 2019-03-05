@@ -1,50 +1,9 @@
-// Number of columns
-$columns: 12;
-$max: $columns;
-$step: 1;
+// Grid spacing overrides
 
 $gutter: 2rem; 
 
-.grid {
-    display: grid;
-    grid-template-columns: repeat($columns, 1fr);
+grid {
     grid-column-gap: $gutter / 2;
     grid-row-gap: $gutter / 2;
     padding: 0 ($gutter / 2);
-    grid-auto-columns: 1fr;
-    @include breakpoint(sm) {
-       padding: 0 $gutter;
-     }
 }
-
-@for $i from 1 through ceil($max/$step) {
-    $value: ($i - 1)*$step + 1;
-    .width-#{$value}-#{$columns} {
-        grid-column: span #{$columns};
-        @include breakpoint(sm) {
-            grid-column: span #{$value};
-          }
-    }
-}
-
-.flex {
-    display: flex;
-    flex-grow: 1;
-    height: 100%;
-}
-
-main {
-     max-width: 80rem;
-     margin: 0 auto;
- }
-
- article {
-     margin: 2rem 0;
-     @include breakpoint(sm) {
-        margin: 4rem 0;
-      }
- }
-
- aside {
-     grid-row: 1 / span 12;
- }
