@@ -108,7 +108,7 @@ h5,
 h6,
 .display-1,
 .display-2 {
-  @include font--secondary-heavy;
+  //@include font--secondary-heavy;
   font-weight: 900;
   font-feature-settings: "lnum";
   font-variant-numeric: tabular-nums;

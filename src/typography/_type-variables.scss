@@ -15,3 +15,34 @@ $mod_1: 1.25; // mobile, major 3rd
 $mod_2: 1.414; // desktop, augmented 4th
 
 $vertical-rhythm: $line-height * 1rem;
+
+
+// Not fluid
+
+$desktop-ms: 1.5;            // Desktop Modular Scale
+$mobile-ms: 1.333;        // Mobile Modular Scale
+$app-ms: 1.2;             // App MS
+
+$m-b0: 16px;             // Body
+$m-b1: $m-b0*$mobile-ms; // Large Body + H6
+$m-b2: $m-b1*$mobile-ms; // H5
+$m-b3: $m-b2*$mobile-ms; // H4
+$m-b4: $m-b3*$mobile-ms; // H3
+$m-b5: $m-b4*$mobile-ms; // H2
+$m-b6: $m-b5*$mobile-ms; // H1
+
+$d-b0: $m-b0*$desktop-ms; // Body, larger screens
+$d-b1: $m-b1*$desktop-ms; // Large Body + H6
+$d-b2: $m-b2*$desktop-ms; // H5
+$d-b3: $m-b3*$desktop-ms; // H4
+$d-b4: $m-b4*$desktop-ms; // H3
+$d-b5: $m-b5*$desktop-ms; // H2
+$d-b6: $m-b6*$desktop-ms; // H1
+
+$m-b0: 16px;             // Body
+$m-b1: $m-b0*$app-ms; // Large Body + H6
+$m-b2: $m-b1*$app-ms; // H5
+$m-b3: $m-b2*$app-ms; // H4
+$m-b4: $m-b3*$app-ms; // H3
+$m-b5: $m-b4*$app-ms; // H2
+$m-b6: $m-b5*$app-ms; // H1
