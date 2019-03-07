@@ -16,13 +16,11 @@ _An extendable starter design/development system aimed at starting with the basi
 
 -------
 
-How to compile Ether:
+How to compile CSS:
 
-1. Navigate to /ether
+1. Make sure you're in the root
 2. `npm run watch`
-3. Files will be added to the ether/dist/css folder
-
-[Ether on Github](https://github.com/wearethescenery/ether)
+3. Files will be added to the dist/css folder
 
 
 -------
