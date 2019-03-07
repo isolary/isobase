@@ -14,11 +14,9 @@
             <p>Typography should be chosen strategically based on brand style, content tone, target audience, industry, and market. Typefaces are paired and sized by the designer. The designer should start with the body text first: defining base body size and lineheight. The body type will inform the spacing for the system. </p>
             <h4>Scale</h4>
             <p>Type sizes should be derived using a typographic scale. This is something that will also be defined by the designer.</p>
-        </c>
-        <c span="5-12" span-s="1..">
             <h3>Sizes</h3>
             <grid columns="12" columns-s="4">
-                <c span="1-6" span-s="1..">
+                <c span="1.." span-s="1..">
                     <h4>App</h4>
                     <p>Typography used in the context of an application or complex interface.</p>
                     <h4>Constant Sizes</h4>
@@ -32,7 +30,7 @@
                     <h5 data-sketch-text="App/Heading 5">Heading 5</h5>
                     <h6 data-sketch-text="App/Heading 6">Heading 6</h6>
                 </c>
-                <c span="7-12" span-s="1..">
+                <c span="1.." span-s="1..">
                     <h4>Prose</h4>
                     <p>Typography used in the context of long-form content or stories.</p>
                     <grid columns="12" columns-s="4">
