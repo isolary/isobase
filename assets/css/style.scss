@@ -1,0 +1,21 @@
+@import 'global';
+
+.logo {
+    width: 100px;
+    align-self: center;
+}
+
+.intro-wrapper{
+    background-color: #eff0f1;
+    padding-top: var(--space-xl);
+    padding-bottom: var(--space-xl);
+}
+section {
+    margin-top: var(--space-xl);
+    margin-bottom: var(--space-xl);
+}
+
+nav {
+    position: sticky;
+    top: var(--space-xl);
+}

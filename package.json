@@ -4,9 +4,9 @@
   "description": "Themeable design system starter.",
   "scripts": {
     "html-sketchapp-install": "html-sketchapp install",
-    "build": "node-sass src/base.scss -o build/css/ && npm run prefix",
+    "build": "node-sass assets/css/style.scss -o build/css/ && npm run prefix",
     "clean": "del-cli build/",
-    "prefix": "postcss build/css/base.css -d dist/css/ --use autoprefixer && npm run clean",
+    "prefix": "postcss build/css/style.css -d dist/css/ --use autoprefixer && npm run clean",
     "watch": "nodemon -e scss --exec 'npm run build'"
   },
   "repository": {

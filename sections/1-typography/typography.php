@@ -1,13 +1,13 @@
-<section id="<?php echo basename(__FILE__, '.php'); ?>">
-    <grid columns="12" columns-s="4">
-        <c span="1-4" span-s="1..">
+<section class="text-component" id="<?php echo basename(__FILE__, '.php'); ?>">
+    <div class="grid">
+        <div class="col--md-3">
             <nav>
                 <h2>Typography</h2>
                 <h4>Typefaces</h4>
                 <h4>Sizes</h4>
             </nav>
-        </c>
-        <c span="5-12" span-s="1..">
+        </div>
+        <div class="col--md-8">
             <h3>Typefaces</h3>
             <p class="lead">Typography should change in scale and size according to context.</p>
             <h4>Selection</h4>
@@ -15,8 +15,8 @@
             <h4>Scale</h4>
             <p>Type sizes should be derived using a typographic scale. This is something that will also be defined by the designer.</p>
             <h3>Sizes</h3>
-            <grid columns="12" columns-s="4">
-                <c span="1.." span-s="1..">
+            <div class="grid">
+                <div class="col--12">
                     <h4>App</h4>
                     <p>Typography used in the context of an application or complex interface.</p>
                     <h4>Constant Sizes</h4>
@@ -29,12 +29,12 @@
                     <h4 data-sketch-text="App/Heading 4">Heading 4</h4>
                     <h5 data-sketch-text="App/Heading 5">Heading 5</h5>
                     <h6 data-sketch-text="App/Heading 6">Heading 6</h6>
-                </c>
-                <c span="1.." span-s="1..">
+                </div>
+                <div class="col--12">
                     <h4>Prose</h4>
                     <p>Typography used in the context of long-form content or stories.</p>
-                    <grid columns="12" columns-s="4">
-                        <c span="1-6" span-s="1..">
+                    <div class="grid">
+                        <div class="col--6">
                             <h4>Mobile</h4>
                             <p data-sketch-text="Mobile/Body/Small" class="small">Small paragraph</p>
                             <p data-sketch-text="Mobile/Body/Regular">Body size, regular paragraph</p>
@@ -45,8 +45,8 @@
                             <h4 data-sketch-text="Mobile/Heading 4">Heading 4</h4>
                             <h5 data-sketch-text="Mobile/Heading 5">Heading 5</h5>
                             <h6 data-sketch-text="Mobile/Heading 6">Heading 6</h6>
-                        </c>
-                        <c span="7-12" span-s="1..">
+                        </div>
+                        <div class="col--6">
                             <h4>Desktop</h4>
                             <p data-sketch-text="Desktop/Body/Small" class="small">Small paragraph</p>
                             <p data-sketch-text="Desktop/Body/Regular">Body size, regular paragraph</p>
@@ -57,10 +57,10 @@
                             <h4 data-sketch-text="Desktop/Heading 4">Heading 4</h4>
                             <h5 data-sketch-text="Desktop/Heading 5">Heading 5</h5>
                             <h6 data-sketch-text="Desktop/Heading 6">Heading 6</h6>
-                        </c>
-                    </grid>
-                </c>
-            </grid>
-        </c>
-    </grid>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>

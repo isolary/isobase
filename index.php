@@ -7,24 +7,28 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Isobase</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css" />
-    <link rel="stylesheet" href="dist/css/base.css" type="text/css">
+    <link rel="stylesheet" href="dist/css/style.css" type="text/css">
 </head>
 
 <body>
     <header class="intro-wrapper">
-        <grid columns="12" columns-s="4" style="max-width: 80rem; margin: 0 auto;">
-            <c span="1-4" span-s="1..">
-                <div class="flex">
-                    <?php include("./snippets/isobase-logo.php"); ?>
+        <div class="container container--xl text-component">
+            <section class="introduction">
+                <div class="grid">
+                    <div class="col--md-3">
+                        <div class="flex">
+                            <?php include("./snippets/isobase-logo.php"); ?>
+                        </div>
+                    </div>
+                    <div class="col--md-8">
+                        <h1>Isobase</h1>
+                        <p class="lead">An extendable starter design/development system aimed at starting with the basics + a few common components.</p>
+                    </div>
                 </div>
-            </c>
-            <c span="5-12" span-s="1..">
-                <h1>Isobase</h1>
-                <p class="lead">An extendable starter design/development system aimed at starting with the basics + a few common components.</p>
-            </c>
-        </grid>
+            </section>
+        </div>
     </header>
-    <main style="max-width: 80rem; margin: 0 auto;">
+    <main class="container container--xl">
         <article>
             <?php
                 //Pulls in each section of the page from the "sections" folder
