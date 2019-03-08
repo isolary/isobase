@@ -36,27 +36,27 @@
                     <grid columns="12" columns-s="4">
                         <c span="1-6" span-s="1..">
                             <h4>Mobile</h4>
-                            <p data-sketch-text="App/Body/Small" class="small">Small paragraph</p>
-                            <p data-sketch-text="App/Body/Regular">Body size, regular paragraph</p>
-                            <p data-sketch-text="App/Body/Lead" class="lead">Lead paragraph</p>
-                            <h1 data-sketch-text="App/Heading 1">Heading 1</h1>
-                            <h2 data-sketch-text="App/Heading 2">Heading 2</h2>
-                            <h3 data-sketch-text="App/Heading 3">Heading 3</h3>
-                            <h4 data-sketch-text="App/Heading 4">Heading 4</h4>
-                            <h5 data-sketch-text="App/Heading 5">Heading 5</h5>
-                            <h6 data-sketch-text="App/Heading 6">Heading 6</h6>
+                            <p data-sketch-text="Mobile/Body/Small" class="small">Small paragraph</p>
+                            <p data-sketch-text="Mobile/Body/Regular">Body size, regular paragraph</p>
+                            <p data-sketch-text="Mobile/Body/Lead" class="lead">Lead paragraph</p>
+                            <h1 data-sketch-text="Mobile/Heading 1">Heading 1</h1>
+                            <h2 data-sketch-text="Mobile/Heading 2">Heading 2</h2>
+                            <h3 data-sketch-text="Mobile/Heading 3">Heading 3</h3>
+                            <h4 data-sketch-text="Mobile/Heading 4">Heading 4</h4>
+                            <h5 data-sketch-text="Mobile/Heading 5">Heading 5</h5>
+                            <h6 data-sketch-text="Mobile/Heading 6">Heading 6</h6>
                         </c>
                         <c span="7-12" span-s="1..">
                             <h4>Desktop</h4>
-                            <p data-sketch-text="App/Body/Small" class="small">Small paragraph</p>
-                            <p data-sketch-text="App/Body/Regular">Body size, regular paragraph</p>
-                            <p data-sketch-text="App/Body/Lead" class="lead">Lead paragraph</p>
-                            <h1 data-sketch-text="App/Heading 1">Heading 1</h1>
-                            <h2 data-sketch-text="App/Heading 2">Heading 2</h2>
-                            <h3 data-sketch-text="App/Heading 3">Heading 3</h3>
-                            <h4 data-sketch-text="App/Heading 4">Heading 4</h4>
-                            <h5 data-sketch-text="App/Heading 5">Heading 5</h5>
-                            <h6 data-sketch-text="App/Heading 6">Heading 6</h6>
+                            <p data-sketch-text="Desktop/Body/Small" class="small">Small paragraph</p>
+                            <p data-sketch-text="Desktop/Body/Regular">Body size, regular paragraph</p>
+                            <p data-sketch-text="Desktop/Body/Lead" class="lead">Lead paragraph</p>
+                            <h1 data-sketch-text="Desktop/Heading 1">Heading 1</h1>
+                            <h2 data-sketch-text="Desktop/Heading 2">Heading 2</h2>
+                            <h3 data-sketch-text="Desktop/Heading 3">Heading 3</h3>
+                            <h4 data-sketch-text="Desktop/Heading 4">Heading 4</h4>
+                            <h5 data-sketch-text="Desktop/Heading 5">Heading 5</h5>
+                            <h6 data-sketch-text="Desktop/Heading 6">Heading 6</h6>
                         </c>
                     </grid>
                 </c>

@@ -1,4 +1,4 @@
-<section id="atoms">
+<section id="<?php echo basename(__FILE__, '.php'); ?>">
     <grid columns="12" columns-s="4">
         <c span="1-4" span-s="1..">
             <nav>
