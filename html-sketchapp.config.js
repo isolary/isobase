@@ -1,8 +1,7 @@
 module.exports = {
-  file: 'index.html',
+  url: 'http://isobase.test',
   outDir: 'dist/sketch',
   viewports: {
-    Desktop: '1920x3000',
-    Mobile: '320x568'
+    Desktop: '1920x1000'
   }
 };
