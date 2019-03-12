@@ -15,7 +15,8 @@
   },
   "author": "Isolary",
   "license": "ISC",
-  "devDependencies": {
+  "devDependencies": {},
+  "dependencies": {
     "@brainly/html-sketchapp": "^4.2.0",
     "autoprefixer": "^7.2.3",
     "del-cli": "^1.1.0",
@@ -23,6 +24,5 @@
     "node-sass": "^4.11.0",
     "nodemon": "^1.18.10",
     "postcss-cli": "^6.1.2"
-  },
-  "dependencies": {}
+  }
 }

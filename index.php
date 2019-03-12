@@ -8,28 +8,29 @@
     <title>Isobase</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css" />
     <link rel="stylesheet" href="dist/css/style.css" type="text/css">
+    <script src="assets/js/util.js"></script>
 </head>
 
 <body>
     <header class="intro-wrapper">
-        <div class="container container--xl text-component">
+        <div class="container container--xl">
             <section class="introduction">
                 <div class="grid">
-                    <div class="col--md-3">
-                        <div class="flex">
-                            <?php include("./snippets/isobase-logo.php"); ?>
-                        </div>
+                    <div class="col--12">
+                        <?php include("./snippets/isobase-logo.php"); ?>
                     </div>
-                    <div class="col--md-8">
+                    <div class="text-component  col--md-3">
                         <h1>Isobase</h1>
-                        <p class="lead">An extendable starter design/development system aimed at starting with the basics + a few common components.</p>
+                    </div>
+                    <div class="text-component col--md-8">
+                        <p class="lead text--md">An optioniated approach to a tokenized design/development system starter with code as the source of truth. Just enough to get started, not enough to get overwhelmed.</p>
                     </div>
                 </div>
             </section>
         </div>
     </header>
     <main class="container container--xl">
-        <article>
+        <article class="content">
             <?php
                 //Pulls in each section of the page from the "sections" folder
                 $dir = "sections/";

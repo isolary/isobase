@@ -1,13 +1,13 @@
-<section class="text-component" id="<?php echo basename(__FILE__, '.php'); ?>">
+<section  id="<?php echo basename(__FILE__, '.php'); ?>">
     <div class="grid">
         <div class="col--md-3">
-            <nav>
+            <nav class="text-component">
                 <h2>Spacing</h2>
                 <h4>Values</h4>
                 <h4>Rules</h4>
             </nav>
         </div>
-        <div class="col--md-8">
+        <div class="text-component col--md-8">
             <h3>Values</h3>
             <div class="grid">
                 <div class="col--6">

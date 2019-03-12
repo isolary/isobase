@@ -1,21 +1,89 @@
 @import 'global';
 
+html {
+    scroll-behavior: smooth;
+}
+
 .logo {
     width: 100px;
     align-self: center;
 }
 
-.intro-wrapper{
-    background-color: #eff0f1;
-    padding-top: var(--space-xl);
-    padding-bottom: var(--space-xl);
-}
-section {
-    margin-top: var(--space-xl);
-    margin-bottom: var(--space-xl);
+.intro-wrapper {
+    background-color: var(--color-contrast-lower);
+    padding-top: var(--space-xxl);
+    padding-bottom: var(--space-xxl);
+    margin-top: 0;
+    section {
+        margin: 0;
+    }
 }
 
-nav {
+section {
+    margin-top: var(--space-xxl);
+    margin-bottom: var(--space-xxl);
+    padding-top: var(--space-lg);
+    padding-bottom: var(--space-lg);
+    section {
+        margin: 0;
+        // padding: 0;
+    }
+    .section-lead {
+        padding-top: 0;
+    }
+}
+
+
+
+nav.sidebar {
     position: sticky;
-    top: var(--space-xl);
+    top: var(--space-lg);
+    margin-bottom: var(--space-lg);
+    ul.sidebar__list {
+        list-style-type: none;
+        padding-left: 0;
+        li.sidebar__list-item {
+            &:first-of-type {
+                margin-top: 0;
+            }
+            a {
+                text-decoration: none;
+            }
+            margin-top: calc(var(--space-sm) * var(--text-vspace-multiplier)); //Match spacing from text-component
+            margin-bottom: calc(var(--space-xxxs) * var(--text-vspace-multiplier));
+        }
+    }
+}
+
+
+
+.app {
+    font-size: 0.667em;
+}
+
+.prose {
+    &--mobile {
+        font-size: 0.667em;
+    }
+}
+
+.demo {
+    padding: var(--space-md);
+    margin: calc(var(--space-sm) * var(--text-vspace-multiplier)) calc(var(--space-md) * -1); //Offset left, right inset
+    &--light {
+        background-color: var(--color-contrast-lower);
+    }
+}
+
+
+// Continue type sizing for smaller headings
+h5,
+h6 {
+    line-height: var(--component-heading-line-height);
+    margin-bottom: calc(var(--space-xxxs) * var(--text-vspace-multiplier));
+    margin-top: calc(var(--space-sm) * var(--text-vspace-multiplier));
+}
+
+.lead {
+    font-weight: 300;
 }
