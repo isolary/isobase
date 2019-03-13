@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Isobase</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css" />
+    <script>document.getElementsByTagName("html")[0].className += " js";</script>
     <link rel="stylesheet" href="dist/css/style.css" type="text/css">
-    <script src="assets/js/util.js"></script>
 </head>
 
 <body>
@@ -50,6 +50,7 @@
             ?>
         </article>
     </main>
+<script src="assets/js/util.js"></script>
 </body>
 
 </html>
