@@ -38,8 +38,6 @@ section {
     }
 }
 
-
-
 nav.sidebar {
     position: sticky;
     top: var(--space-lg);
@@ -60,8 +58,6 @@ nav.sidebar {
     }
 }
 
-
-
 .app {
     font-size: 0.667em;
 }
@@ -74,7 +70,7 @@ nav.sidebar {
 
 .demo {
     padding: var(--space-md);
-    margin: calc(var(--space-sm) * var(--text-vspace-multiplier)) calc(var(--space-md) * -1); //Offset left, right inset
+    margin: var(--space-md) calc(var(--space-md) * -1); //Offset left, right inset
     &--light {
         background-color: var(--color-contrast-lower);
     }
@@ -104,7 +100,7 @@ h6 {
 }
 
 .spacer--xxxxs {
-    // width: round(calc(var(--space-xxxxs) * 1));
+    width: var(--space-xxxxs);
     height: var(--space-xxxxs);
 }
 

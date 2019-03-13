@@ -32,6 +32,7 @@
                         <div class="spacer spacer--lg"></div>
                         <div class="spacer spacer--xl"></div>
                         <div class="spacer spacer--xxl"></div>
+                        <div class="spacer spacer--xxxl"></div>
                     </div>
                 </div>
                 <h4>Horizontal</h4>
@@ -45,6 +46,7 @@
                         <div class="spacer spacer--lg"></div>
                         <div class="spacer spacer--xl"></div>
                         <div class="spacer spacer--xxl"></div>
+                        <div class="spacer spacer--xxxl"></div>
                     </div>
                 </div>
             </section>
