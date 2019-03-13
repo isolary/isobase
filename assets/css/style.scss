@@ -97,3 +97,58 @@ h6 {
     background-color: var(--color-primary-light);
     margin-bottom: var(--space-md);
 }
+
+.spacer--md {
+    width: var(--space-md);
+    height: var(--space-md);
+}
+
+.spacer--xxxxs {
+    // width: round(calc(var(--space-xxxxs) * 1));
+    height: var(--space-xxxxs);
+}
+
+.spacer--xxxs {
+    width: var(--space-xxxs);
+    height: var(--space-xxxs);
+}
+
+.spacer--xxs {
+    width: var(--space-xxs);
+    height: var(--space-xxs);
+}
+
+.spacer--xs {
+    width: var(--space-xs);
+    height: var(--space-xs);
+}
+
+.spacer--sm {
+    width: var(--space-sm);
+    height: var(--space-sm);
+}
+
+.spacer--lg {
+    width: var(--space-lg);
+    height: var(--space-lg);
+}
+
+.spacer--xl {
+    width: var(--space-xl);
+    height: var(--space-xl);
+}
+
+.spacer--xxl {
+    width: var(--space-xxl);
+    height: var(--space-xxl);
+}
+
+.spacer--xxxl {
+    width: var(--space-xxxl);
+    height: var(--space-xxxl);
+}
+
+.spacer--xxxxl {
+    width: var(--space-xxxxl);
+    height: var(--space-xxxxl);
+}

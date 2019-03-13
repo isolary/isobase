@@ -26,12 +26,12 @@
                 <p>Body, 16px/1.5 (24px)</p>
                 <div class="demo demo--light">
                     <div class="app">
-                        <div class="spacer" style="height: var(--space-xs); width: var(--space-xs);"></div>
-                        <div class="spacer" style="height: var(--space-sm); width: var(--space-sm);"></div>
-                        <div class="spacer" style="height: var(--space-md); width: var(--space-md);"></div>
-                        <div class="spacer" style="height: var(--space-lg); width: var(--space-lg);"></div>
-                        <div class="spacer" style="height: var(--space-xl); width: var(--space-xl);"></div>
-                        <div class="spacer" style="height: var(--space-xxl); width: var(--space-xxl);"></div>
+                        <div class="spacer spacer--xs"></div>
+                        <div class="spacer spacer--sm"></div>
+                        <div class="spacer spacer--md"></div>
+                        <div class="spacer spacer--lg"></div>
+                        <div class="spacer spacer--xl"></div>
+                        <div class="spacer spacer--xxl"></div>
                     </div>
                 </div>
                 <h4>Horizontal</h4>
@@ -39,12 +39,12 @@
                 <p>Body, 16px/1.5; $gutter: 2rem (32px)</p>
                 <div class="demo demo--light">
                     <div class="app">
-                        <div class="spacer" style="height: var(--space-xs); width: var(--space-xs);"></div>
-                        <div class="spacer" style="height: var(--space-sm); width: var(--space-sm);"></div>
-                        <div class="spacer" style="height: var(--space-md); width: var(--space-md);"></div>
-                        <div class="spacer" style="height: var(--space-lg); width: var(--space-lg);"></div>
-                        <div class="spacer" style="height: var(--space-xl); width: var(--space-xl);"></div>
-                        <div class="spacer" style="height: var(--space-xxl); width: var(--space-xxl);"></div>
+                        <div class="spacer spacer--xs"></div>
+                        <div class="spacer spacer--sm"></div>
+                        <div class="spacer spacer--md"></div>
+                        <div class="spacer spacer--lg"></div>
+                        <div class="spacer spacer--xl"></div>
+                        <div class="spacer spacer--xxl"></div>
                     </div>
                 </div>
             </section>
