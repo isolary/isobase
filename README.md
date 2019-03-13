@@ -19,8 +19,8 @@ _An extendable starter design/development system aimed at starting with the basi
 How to compile CSS:
 
 1. Make sure you're in the root
-2. `npm run watch`
-3. Files will be added to the dist/css folder
+2. `npm run gulp watch`
+3. CSS files will be added to the dist/css folder
 
 
 -------
@@ -31,4 +31,4 @@ How to open/convert .asketch files:
 2. Run `html-sketchapp` in the root of the project
 3. Check the `dist/sketch` folder for files
 4. Open Sketch, go to Plugins > From *Almost* Sketch To Sketch
-5. Select "Import File(s)", select both generated files from the `dist/sketch` folder 
+5. Select "Import File(s)", select both generated files from the `dist/sketch` folder

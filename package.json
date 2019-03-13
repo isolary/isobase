@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Themeable design system starter.",
   "scripts": {
-    "gulp": "gulp"
+    "gulp": "gulp",
+    "html-sketchapp-install": "html-sketchapp install"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,6 @@
     "gulp-sass": "^4.0.2",
     "html-sketchapp-cli": "^0.6.2",
     "postcss-calc": "^7.0.1",
-    "postcss-css-variables": "git+https://github.com/CodyHouse/postcss-css-variables"
+    "postcss-css-variables": "^0.12.0"
   }
 }

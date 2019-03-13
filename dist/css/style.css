@@ -243,7 +243,12 @@ img, video, svg {
   --component-padding: var(--space-sm);
 }
 
-.margin-top, .margin-top--md {
+.margin-top {
+  margin-top: 1em;
+  margin-top: var(--space-md);
+}
+
+.margin-top--md {
   margin-top: 1em;
   margin-top: var(--space-md);
 }
@@ -298,7 +303,12 @@ img, video, svg {
   margin-top: var(--space-xxxxl);
 }
 
-.margin-bottom, .margin-bottom--md {
+.margin-bottom {
+  margin-bottom: 1em;
+  margin-bottom: var(--space-md);
+}
+
+.margin-bottom--md {
   margin-bottom: 1em;
   margin-bottom: var(--space-md);
 }
@@ -858,7 +868,12 @@ img, video, svg {
   flex-shrink: 0;
 }
 
-.flex-gap > *, .flex-gap--md > * {
+.flex-gap > * {
+  margin-right: 1em;
+  margin-right: var(--space-md);
+}
+
+.flex-gap--md > * {
   margin-right: 1em;
   margin-right: var(--space-md);
 }
@@ -867,12 +882,22 @@ img, video, svg {
   margin-right: 0;
 }
 
-.flex--wrap.flex-gap, .flex--wrap.flex-gap--md {
+.flex--wrap.flex-gap {
   margin-bottom: -1em;
   margin-bottom: calc(-1*var(--space-md));
 }
 
-.flex--wrap.flex-gap > *, .flex--wrap.flex-gap--md > * {
+.flex--wrap.flex-gap--md {
+  margin-bottom: -1em;
+  margin-bottom: calc(-1*var(--space-md));
+}
+
+.flex--wrap.flex-gap > * {
+  margin-bottom: 1em;
+  margin-bottom: var(--space-md);
+}
+
+.flex--wrap.flex-gap--md > * {
   margin-bottom: 1em;
   margin-bottom: var(--space-md);
 }
@@ -1040,7 +1065,34 @@ body {
   }
 }
 
-h1, h2, h3, h4 {
+h1 {
+  color: hsl(240, 8%, 12%);
+  color: var(--color-contrast-higher);
+  line-height: 1.2;
+  line-height: var(--heading-line-height);
+  font-family: sans-serif;
+  font-family: var(--font-primary);
+}
+
+h2 {
+  color: hsl(240, 8%, 12%);
+  color: var(--color-contrast-higher);
+  line-height: 1.2;
+  line-height: var(--heading-line-height);
+  font-family: sans-serif;
+  font-family: var(--font-primary);
+}
+
+h3 {
+  color: hsl(240, 8%, 12%);
+  color: var(--color-contrast-higher);
+  line-height: 1.2;
+  line-height: var(--heading-line-height);
+  font-family: sans-serif;
+  font-family: var(--font-primary);
+}
+
+h4 {
   color: hsl(240, 8%, 12%);
   color: var(--color-contrast-higher);
   line-height: 1.2;
@@ -1054,27 +1106,52 @@ h1, h2, h3, h4 {
   font-size: var(--text-xxxl);
 }
 
-h1, .text--xxl {
+h1 {
   font-size: 2.0736em;
   font-size: var(--text-xxl);
 }
 
-h2, .text--xl {
+.text--xxl {
+  font-size: 2.0736em;
+  font-size: var(--text-xxl);
+}
+
+h2 {
   font-size: 1.728em;
   font-size: var(--text-xl);
 }
 
-h3, .text--lg {
+.text--xl {
+  font-size: 1.728em;
+  font-size: var(--text-xl);
+}
+
+h3 {
   font-size: 1.44em;
   font-size: var(--text-lg);
 }
 
-h4, .text--md {
+.text--lg {
+  font-size: 1.44em;
+  font-size: var(--text-lg);
+}
+
+h4 {
   font-size: 1.2em;
   font-size: var(--text-md);
 }
 
-.text--sm, small {
+.text--md {
+  font-size: 1.2em;
+  font-size: var(--text-md);
+}
+
+.text--sm {
+  font-size: 0.83333em;
+  font-size: var(--text-sm);
+}
+
+small {
   font-size: 0.83333em;
   font-size: var(--text-sm);
 }
@@ -1084,7 +1161,13 @@ h4, .text--md {
   font-size: var(--text-xs);
 }
 
-a, .link {
+a {
+  color: hsl(220, 90%, 56%);
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+
+.link {
   color: hsl(220, 90%, 56%);
   color: var(--color-primary);
   text-decoration: underline;
@@ -1120,26 +1203,93 @@ u {
   --text-vspace-multiplier: 1;
 }
 
-.text-component h1, .text-component h2, .text-component h3, .text-component h4 {
+.text-component h1 {
   line-height: 1.2;
   line-height: var(--component-heading-line-height);
   margin-bottom: 0.2em;
   margin-bottom: calc(var(--space-xxxs)*var(--text-vspace-multiplier));
 }
 
-.text-component h2, .text-component h3, .text-component h4 {
+.text-component h2 {
+  line-height: 1.2;
+  line-height: var(--component-heading-line-height);
+  margin-bottom: 0.2em;
+  margin-bottom: calc(var(--space-xxxs)*var(--text-vspace-multiplier));
+}
+
+.text-component h3 {
+  line-height: 1.2;
+  line-height: var(--component-heading-line-height);
+  margin-bottom: 0.2em;
+  margin-bottom: calc(var(--space-xxxs)*var(--text-vspace-multiplier));
+}
+
+.text-component h4 {
+  line-height: 1.2;
+  line-height: var(--component-heading-line-height);
+  margin-bottom: 0.2em;
+  margin-bottom: calc(var(--space-xxxs)*var(--text-vspace-multiplier));
+}
+
+.text-component h2 {
   margin-top: 0.667em;
   margin-top: calc(var(--space-sm)*var(--text-vspace-multiplier));
 }
 
-.text-component p, .text-component blockquote, .text-component ul li, .text-component ol li {
+.text-component h3 {
+  margin-top: 0.667em;
+  margin-top: calc(var(--space-sm)*var(--text-vspace-multiplier));
+}
+
+.text-component h4 {
+  margin-top: 0.667em;
+  margin-top: calc(var(--space-sm)*var(--text-vspace-multiplier));
+}
+
+.text-component p {
   line-height: 1.4;
   line-height: var(--component-body-line-height);
   color: hsl(240, 4%, 20%);
   color: var(--color-contrast-high);
 }
 
-.text-component ul, .text-component ol, .text-component p, .text-component blockquote {
+.text-component blockquote {
+  line-height: 1.4;
+  line-height: var(--component-body-line-height);
+  color: hsl(240, 4%, 20%);
+  color: var(--color-contrast-high);
+}
+
+.text-component ul li {
+  line-height: 1.4;
+  line-height: var(--component-body-line-height);
+  color: hsl(240, 4%, 20%);
+  color: var(--color-contrast-high);
+}
+
+.text-component ol li {
+  line-height: 1.4;
+  line-height: var(--component-body-line-height);
+  color: hsl(240, 4%, 20%);
+  color: var(--color-contrast-high);
+}
+
+.text-component ul {
+  margin-bottom: 0.667em;
+  margin-bottom: calc(var(--space-sm)*var(--text-vspace-multiplier));
+}
+
+.text-component ol {
+  margin-bottom: 0.667em;
+  margin-bottom: calc(var(--space-sm)*var(--text-vspace-multiplier));
+}
+
+.text-component p {
+  margin-bottom: 0.667em;
+  margin-bottom: calc(var(--space-sm)*var(--text-vspace-multiplier));
+}
+
+.text-component blockquote {
   margin-bottom: 0.667em;
   margin-bottom: calc(var(--space-sm)*var(--text-vspace-multiplier));
 }
@@ -1553,7 +1703,15 @@ u {
   clip: auto;
 }
 
-.radio-list > *, .checkbox-list > * {
+.radio-list > * {
+  position: relative;
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 0.296em;
+  margin-bottom: var(--space-xxs);
+}
+
+.checkbox-list > * {
   position: relative;
   display: flex;
   align-items: baseline;
@@ -1565,7 +1723,7 @@ u {
   margin-bottom: 0;
 }
 
-.radio-list label, .checkbox-list label {
+.radio-list label {
   line-height: 1.4;
   line-height: var(--body-line-height);
   -webkit-user-select: none;
@@ -1574,20 +1732,69 @@ u {
           user-select: none;
 }
 
-.radio-list input, .checkbox-list input {
+.checkbox-list label {
+  line-height: 1.4;
+  line-height: var(--body-line-height);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.radio-list input {
   vertical-align: top;
   margin-right: 0.2em;
   margin-right: var(--space-xxxs);
   flex-shrink: 0;
 }
 
-.radio-list.radio-list--inline, .radio-list.checkbox-list--inline, .checkbox-list.radio-list--inline, .checkbox-list.checkbox-list--inline {
+.checkbox-list input {
+  vertical-align: top;
+  margin-right: 0.2em;
+  margin-right: var(--space-xxxs);
+  flex-shrink: 0;
+}
+
+.radio-list.radio-list--inline {
   display: flex;
   margin-bottom: -1em;
   margin-bottom: calc(-1*var(--space-md));
 }
 
-.radio-list.radio-list--inline > *, .radio-list.checkbox-list--inline > *, .checkbox-list.radio-list--inline > *, .checkbox-list.checkbox-list--inline > * {
+.radio-list.checkbox-list--inline {
+  display: flex;
+  margin-bottom: -1em;
+  margin-bottom: calc(-1*var(--space-md));
+}
+
+.checkbox-list.radio-list--inline {
+  display: flex;
+  margin-bottom: -1em;
+  margin-bottom: calc(-1*var(--space-md));
+}
+
+.checkbox-list.checkbox-list--inline {
+  display: flex;
+  margin-bottom: -1em;
+  margin-bottom: calc(-1*var(--space-md));
+}
+
+.radio-list.radio-list--inline > * {
+  margin: 0 1em 1em 0;
+  margin: 0 var(--space-md) var(--space-md) 0;
+}
+
+.radio-list.checkbox-list--inline > * {
+  margin: 0 1em 1em 0;
+  margin: 0 var(--space-md) var(--space-md) 0;
+}
+
+.checkbox-list.radio-list--inline > * {
+  margin: 0 1em 1em 0;
+  margin: 0 var(--space-md) var(--space-md) 0;
+}
+
+.checkbox-list.checkbox-list--inline > * {
   margin: 0 1em 1em 0;
   margin: 0 var(--space-md) var(--space-md) 0;
 }
@@ -1768,7 +1975,15 @@ nav.sidebar ul.sidebar__list li.sidebar__list-item a {
   background-color: var(--color-contrast-lower);
 }
 
-h5,
+h5 {
+  line-height: undefined;
+  line-height: var(--component-heading-line-height);
+  margin-bottom: undefined;
+  margin-bottom: calc(var(--space-xxxs)*var(--text-vspace-multiplier));
+  margin-top: undefined;
+  margin-top: calc(var(--space-sm)*var(--text-vspace-multiplier));
+}
+
 h6 {
   line-height: undefined;
   line-height: var(--component-heading-line-height);
