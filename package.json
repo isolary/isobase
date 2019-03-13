@@ -3,11 +3,7 @@
   "version": "1.0.0",
   "description": "Themeable design system starter.",
   "scripts": {
-    "html-sketchapp-install": "html-sketchapp install",
-    "build": "node-sass assets/css/style.scss -o build/css/ && npm run prefix",
-    "clean": "del-cli build/",
-    "prefix": "postcss build/css/style.css -d dist/css/ --use autoprefixer && npm run clean",
-    "watch": "nodemon -e scss --exec 'npm run build'"
+    "gulp": "gulp"
   },
   "repository": {
     "type": "git",
@@ -18,11 +14,12 @@
   "devDependencies": {},
   "dependencies": {
     "@brainly/html-sketchapp": "^4.2.0",
-    "autoprefixer": "^7.2.3",
-    "del-cli": "^1.1.0",
     "html-sketchapp-cli": "^0.6.2",
-    "node-sass": "^4.11.0",
-    "nodemon": "^1.18.10",
-    "postcss-cli": "^6.1.2"
+    "autoprefixer": "^9.4.9",
+    "gulp": "^4.0.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "postcss-calc": "^7.0.1",
+    "postcss-css-variables": "git+https://github.com/CodyHouse/postcss-css-variables"
   }
 }
