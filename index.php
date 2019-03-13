@@ -23,7 +23,7 @@
                         <h1>Isobase</h1>
                     </div>
                     <div class="text-component col--md-8">
-                        <p class="lead text--md">An optioniated approach to a tokenized design/development system starter with code as the source of truth. Just enough to get started, not enough to get overwhelmed.</p>
+                        <p class="lead text--md">An opinioniated approach to a tokenized design/development system starter with code as the source of truth. Just enough to get started, not enough to get overwhelmed.</p>
                     </div>
                 </div>
             </section>
