@@ -1,0 +1,25 @@
+{
+  "name": "isobase",
+  "version": "1.0.0",
+  "description": "Themeable design system starter.",
+  "scripts": {
+    "gulp": "gulp",
+    "html-sketchapp-install": "html-sketchapp install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.isolary.com:design/isobase.git"
+  },
+  "author": "Isolary",
+  "license": "ISC",
+  "dependencies": {
+    "@brainly/html-sketchapp": "^4.2.0",
+    "autoprefixer": "^9.4.9",
+    "gulp": "^4.0.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "html-sketchapp-cli": "^0.6.2",
+    "postcss-calc": "^7.0.1",
+    "postcss-css-variables": "^0.12.0"
+  }
+}

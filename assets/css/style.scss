@@ -1,0 +1,181 @@
+@import 'global';
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+// Simple function to loop through headings
+@function headings($from:1, $to:6) {
+    @if $from == $to {
+        @return 'h#{$from}';
+    } @else {
+        @return 'h#{$from},' + headings($from+1, $to);
+    }
+}
+
+// Hide explanation for sketch file generation
+.gen .explain {
+    margin: 0;
+    padding: 0;
+    &> {
+        p, #{headings(1,6)} {
+            display: none;
+        }
+    }
+    .demo>* {
+        display: inherit !important;
+    }
+}
+
+.logo {
+    width: 100px;
+    align-self: center;
+}
+
+.intro-wrapper {
+    background-color: var(--color-contrast-lower);
+    padding-top: var(--space-xxl);
+    padding-bottom: var(--space-xxl);
+    margin-top: 0;
+    section {
+        margin: 0;
+    }
+}
+
+section {
+    margin-top: var(--space-xxl);
+    margin-bottom: var(--space-xxl);
+    padding-top: var(--space-lg);
+    padding-bottom: var(--space-lg);
+    section {
+        margin: 0;
+        // padding: 0;
+    }
+    .section-lead {
+        padding-top: 0;
+    }
+}
+
+nav.sidebar {
+    position: sticky;
+    top: var(--space-lg);
+    margin-bottom: var(--space-lg);
+    ul.sidebar__list {
+        list-style-type: none;
+        padding-left: 0;
+        li.sidebar__list-item {
+            &:first-of-type {
+                margin-top: 0;
+            }
+            a {
+                text-decoration: none;
+            }
+            --component-body-line-height: calc(var(--body-line-height) * var(--line-height-multiplier, 1));
+            --component-heading-line-height: calc(var(--heading-line-height) * var(--line-height-multiplier, 1));
+            --line-height-multiplier: 1;
+            --text-vspace-multiplier: 1;
+            margin-top: calc(var(--space-sm) * var(--text-vspace-multiplier)); //Match spacing from text-component
+            margin-bottom: calc(var(--space-xxxs) * var(--text-vspace-multiplier));
+        }
+    }
+}
+
+.app {
+    font-size: 0.667em;
+}
+
+.prose {
+    &--mobile {
+        font-size: 0.667em;
+    }
+}
+
+.demo {
+    padding: var(--space-md);
+    margin: var(--space-md) calc(var(--space-md) * -1); //Offset left, right inset
+    &--light {
+        background-color: var(--color-contrast-lower);
+    }
+}
+
+
+// Continue type sizing for smaller headings
+h5,
+h6 {
+    --component-body-line-height: calc(var(--body-line-height) * var(--line-height-multiplier, 1));
+    --component-heading-line-height: calc(var(--heading-line-height) * var(--line-height-multiplier, 1));
+    --line-height-multiplier: 1;
+    --text-vspace-multiplier: 1;
+    line-height: var(--component-heading-line-height);
+    margin-bottom: calc(var(--space-xxxs) * var(--text-vspace-multiplier));
+    margin-top: calc(var(--space-sm) * var(--text-vspace-multiplier));
+}
+
+.lead {
+    font-weight: 300;
+}
+
+.spacer {
+    background-color: var(--color-primary-light);
+    margin-bottom: var(--space-md);
+}
+
+.spacer--md {
+    width: var(--space-md);
+    height: var(--space-md);
+}
+
+.spacer--xxxxs {
+    width: var(--space-xxxxs);
+    height: var(--space-xxxxs);
+}
+
+.spacer--xxxs {
+    width: var(--space-xxxs);
+    height: var(--space-xxxs);
+}
+
+.spacer--xxs {
+    width: var(--space-xxs);
+    height: var(--space-xxs);
+}
+
+.spacer--xs {
+    width: var(--space-xs);
+    height: var(--space-xs);
+}
+
+.spacer--sm {
+    width: var(--space-sm);
+    height: var(--space-sm);
+}
+
+.spacer--lg {
+    width: var(--space-lg);
+    height: var(--space-lg);
+}
+
+.spacer--xl {
+    width: var(--space-xl);
+    height: var(--space-xl);
+}
+
+.spacer--xxl {
+    width: var(--space-xxl);
+    height: var(--space-xxl);
+}
+
+.spacer--xxxl {
+    width: var(--space-xxxl);
+    height: var(--space-xxxl);
+}
+
+.spacer--xxxxl {
+    width: var(--space-xxxxl);
+    height: var(--space-xxxxl);
+}
