@@ -1021,7 +1021,7 @@ img, video, svg {
 }
 
 :root, body {
-  --font-primary: sans-serif;
+  --font-primary: 'Helvetica', sans-serif;
   --text-base-size: 1em;
   --text-scale-ratio: 1.2;
   --text-xs: calc(1em/var(--text-scale-ratio)/var(--text-scale-ratio));
@@ -1050,7 +1050,7 @@ body {
   font-size: var(--text-base-size);
   color: hsl(240, 4%, 20%);
   color: var(--color-contrast-high);
-  font-family: sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-family: var(--font-primary);
 }
 
@@ -1070,7 +1070,7 @@ h1 {
   color: var(--color-contrast-higher);
   line-height: 1.2;
   line-height: var(--heading-line-height);
-  font-family: sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-family: var(--font-primary);
 }
 
@@ -1079,7 +1079,7 @@ h2 {
   color: var(--color-contrast-higher);
   line-height: 1.2;
   line-height: var(--heading-line-height);
-  font-family: sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-family: var(--font-primary);
 }
 
@@ -1088,7 +1088,7 @@ h3 {
   color: var(--color-contrast-higher);
   line-height: 1.2;
   line-height: var(--heading-line-height);
-  font-family: sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-family: var(--font-primary);
 }
 
@@ -1097,7 +1097,7 @@ h4 {
   color: var(--color-contrast-higher);
   line-height: 1.2;
   line-height: var(--heading-line-height);
-  font-family: sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-family: var(--font-primary);
 }
 
@@ -1888,6 +1888,19 @@ html {
   scroll-behavior: smooth;
 }
 
+.gen .explain {
+  margin: 0;
+  padding: 0;
+}
+
+.gen .explain > p, .gen .explain > h1, .gen .explain > h2, .gen .explain > h3, .gen .explain > h4, .gen .explain > h5, .gen .explain > h6 {
+  display: none;
+}
+
+.gen .explain .demo > * {
+  display: inherit !important;
+}
+
 .logo {
   width: 100px;
   align-self: center;
@@ -1941,9 +1954,15 @@ nav.sidebar ul.sidebar__list {
 }
 
 nav.sidebar ul.sidebar__list li.sidebar__list-item {
-  margin-top: undefined;
+  --component-body-line-height: 1.4;
+  --component-body-line-height: calc(var(--body-line-height)*var(--line-height-multiplier, 1));
+  --component-heading-line-height: 1.2;
+  --component-heading-line-height: calc(var(--heading-line-height)*var(--line-height-multiplier, 1));
+  --line-height-multiplier: 1;
+  --text-vspace-multiplier: 1;
+  margin-top: 0.667em;
   margin-top: calc(var(--space-sm)*var(--text-vspace-multiplier));
-  margin-bottom: undefined;
+  margin-bottom: 0.2em;
   margin-bottom: calc(var(--space-xxxs)*var(--text-vspace-multiplier));
 }
 
@@ -1976,20 +1995,32 @@ nav.sidebar ul.sidebar__list li.sidebar__list-item a {
 }
 
 h5 {
-  line-height: undefined;
+  --component-body-line-height: 1.4;
+  --component-body-line-height: calc(var(--body-line-height)*var(--line-height-multiplier, 1));
+  --component-heading-line-height: 1.2;
+  --component-heading-line-height: calc(var(--heading-line-height)*var(--line-height-multiplier, 1));
+  --line-height-multiplier: 1;
+  --text-vspace-multiplier: 1;
+  line-height: 1.2;
   line-height: var(--component-heading-line-height);
-  margin-bottom: undefined;
+  margin-bottom: 0.2em;
   margin-bottom: calc(var(--space-xxxs)*var(--text-vspace-multiplier));
-  margin-top: undefined;
+  margin-top: 0.667em;
   margin-top: calc(var(--space-sm)*var(--text-vspace-multiplier));
 }
 
 h6 {
-  line-height: undefined;
+  --component-body-line-height: 1.4;
+  --component-body-line-height: calc(var(--body-line-height)*var(--line-height-multiplier, 1));
+  --component-heading-line-height: 1.2;
+  --component-heading-line-height: calc(var(--heading-line-height)*var(--line-height-multiplier, 1));
+  --line-height-multiplier: 1;
+  --text-vspace-multiplier: 1;
+  line-height: 1.2;
   line-height: var(--component-heading-line-height);
-  margin-bottom: undefined;
+  margin-bottom: 0.2em;
   margin-bottom: calc(var(--space-xxxs)*var(--text-vspace-multiplier));
-  margin-top: undefined;
+  margin-top: 0.667em;
   margin-top: calc(var(--space-sm)*var(--text-vspace-multiplier));
 }
 

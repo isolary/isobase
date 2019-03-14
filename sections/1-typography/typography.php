@@ -16,11 +16,11 @@
             </nav>
         </div>
         <div class="col--md-8">
-            <section class="section-lead text-component">
+            <section class="section-lead text-component explain">
                 <p class="lead text--md">Typography is used to determine all spacing and rhythm. Typography should
                     change in scale and size according to context.</p>
             </section>
-            <section id="typefaces" class="text-component">
+            <section id="typefaces" class="text-component explain">
                 <h3>Typefaces</h3>
                 <h4>Selection</h4>
                 <p>Typography should be chosen strategically based on brand style, content tone, target audience,
@@ -31,7 +31,7 @@
                 <p>Type sizes should be derived using a typographic scale. This is something that will also be defined
                     by the designer.</p>
             </section>
-            <section id="sizes" class="text-component">
+            <section id="sizes" class="text-component explain">
                 <h3>Sizes</h3>
                 <h4>App</h4>
                 <p>Typography used in the context of an application or complex interface.</p>

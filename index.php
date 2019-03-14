@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="dist/css/style.css" type="text/css">
 </head>
 
-<body>
+<body <?php if ( isset( $_GET['gen'] ) ) echo 'class="gen"' ?>>
     <header class="intro-wrapper">
         <div class="container container--xl">
             <section class="introduction">

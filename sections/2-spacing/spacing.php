@@ -16,10 +16,10 @@
             </nav>
         </div>
         <div class="col--md-8">
-            <section class="section-lead text-component">
+            <section class="section-lead text-component explain">
                 <p class="lead text--md">The spacing system is generated from the sizes of the type per context.</p>
             </section>
-            <section id="values" class="text-component">
+            <section id="values" class="text-component explain">
                 <h3>Values</h3>
                 <h4>Vertical</h4>
                 <p>Vertical spacing units are derived from the lineheight of the body type.</p>
@@ -50,7 +50,7 @@
                     </div>
                 </div>
             </section>
-            <section id="rules" class="text-component">
+            <section id="rules" class="text-component explain">
                 <h3>Rules</h3>
             </section>
         </div>
