@@ -1,4 +1,4 @@
-<section id="<?php echo basename(__FILE__, '.php'); ?>">
+<!-- <section id="<?php echo basename(__FILE__, '.php'); ?>">
     <div class="grid">
         <div class="col--md-3">
             <nav class="text-component">
@@ -12,4 +12,4 @@
             <p>The grid system should be flexible enough to accomodate spacing rules derived from the type. It should be easy for designers/devs to understand and use. </p>
         </div>
     </div>
-</section>
+</section> -->

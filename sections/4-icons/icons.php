@@ -1,4 +1,4 @@
-<section id="<?php echo basename(__FILE__, '.php'); ?>">
+<!-- <section id="<?php echo basename(__FILE__, '.php'); ?>">
     <div class="grid">
         <div class="col--md-3">
             <nav class="text-component">
@@ -12,4 +12,4 @@
             <p>Icon sets should be chosen based on the scope/depth of the project. Icons should be built and exported in the SVG format.</p>
         </div>
     </div>
-</section>
+</section> -->

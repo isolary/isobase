@@ -85,7 +85,7 @@ nav.sidebar {
     }
 }
 
-.app {
+.app, .mobile {
     font-size: 0.667em;
 }
 
@@ -122,60 +122,59 @@ h6 {
 
 .spacer {
     background-color: var(--color-primary-light);
-    margin-bottom: var(--space-md);
-}
-
-.spacer--md {
-    width: var(--space-md);
-    height: var(--space-md);
-}
-
-.spacer--xxxxs {
-    width: var(--space-xxxxs);
-    height: var(--space-xxxxs);
-}
-
-.spacer--xxxs {
-    width: var(--space-xxxs);
-    height: var(--space-xxxs);
-}
-
-.spacer--xxs {
-    width: var(--space-xxs);
-    height: var(--space-xxs);
-}
-
-.spacer--xs {
-    width: var(--space-xs);
-    height: var(--space-xs);
-}
-
-.spacer--sm {
-    width: var(--space-sm);
-    height: var(--space-sm);
-}
-
-.spacer--lg {
-    width: var(--space-lg);
-    height: var(--space-lg);
-}
-
-.spacer--xl {
-    width: var(--space-xl);
-    height: var(--space-xl);
-}
-
-.spacer--xxl {
-    width: var(--space-xxl);
-    height: var(--space-xxl);
-}
-
-.spacer--xxxl {
-    width: var(--space-xxxl);
-    height: var(--space-xxxl);
-}
-
-.spacer--xxxxl {
-    width: var(--space-xxxxl);
-    height: var(--space-xxxxl);
+    margin-right: var(--space-md);
+    &--md {
+        width: var(--space-md);
+        height: var(--space-md);
+    }
+    
+    &--xxxxs {
+        width: var(--space-xxxxs);
+        height: var(--space-xxxxs);
+    }
+    
+    &--xxxs {
+        width: var(--space-xxxs);
+        height: var(--space-xxxs);
+    }
+    
+    &--xxs {
+        width: var(--space-xxs);
+        height: var(--space-xxs);
+    }
+    
+    &--xs {
+        width: var(--space-xs);
+        height: var(--space-xs);
+    }
+    
+    &--sm {
+        width: var(--space-sm);
+        height: var(--space-sm);
+    }
+    
+    &--lg {
+        width: var(--space-lg);
+        height: var(--space-lg);
+    }
+    
+    &--xl {
+        width: var(--space-xl);
+        height: var(--space-xl);
+    }
+    
+    &--xxl {
+        width: var(--space-xxl);
+        height: var(--space-xxl);
+    }
+    
+    &--xxxl {
+        width: var(--space-xxxl);
+        height: var(--space-xxxl);
+    }
+    
+    &--xxxxl {
+        width: var(--space-xxxxl);
+        height: var(--space-xxxxl);
+    }
 }

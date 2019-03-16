@@ -1,4 +1,4 @@
-<section id="<?php echo basename(__FILE__, '.php'); ?>">
+<!-- <section id="<?php echo basename(__FILE__, '.php'); ?>">
     <div class="grid">
         <div class="col--md-3">
             <nav class="text-component">
@@ -12,4 +12,4 @@
             <p>Atoms represent the common web elements that make up pages and applications. Every project will likely use these elements in some fashion or another. All elements should be designed/built in an accessible and inclusive manner from the get-go. </p>
         </div>
     </div>
-</section>
+</section> -->

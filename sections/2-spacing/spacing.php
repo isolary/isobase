@@ -9,49 +9,43 @@
                     <li class="sidebar__list-item">
                         <a href="#values" class="text--md">Values</a>
                     </li>
-                    <li class="sidebar__list-item">
-                        <a href="#rules" class="text--md">Rules</a>
-                    </li>
                 </ul>
             </nav>
         </div>
         <div class="col--md-8">
             <section class="section-lead text-component explain">
-                <p class="lead text--md">The spacing system is generated from the sizes of the type per context.</p>
+                <p class="lead text--md">The spacing system is generated from the sizes of the type depending on context and device.</p>
             </section>
             <section id="values" class="text-component explain">
                 <h3>Values</h3>
-                <h4>Vertical</h4>
-                <p>Vertical spacing units are derived from the lineheight of the body type.</p>
-                <p>Body, 16px/1.5 (24px)</p>
+                <h4>App & Mobile</h4>
                 <div class="demo demo--light">
-                    <div class="app">
-                        <div class="spacer spacer--xs"></div>
-                        <div class="spacer spacer--sm"></div>
-                        <div class="spacer spacer--md"></div>
-                        <div class="spacer spacer--lg"></div>
-                        <div class="spacer spacer--xl"></div>
-                        <div class="spacer spacer--xxl"></div>
-                        <div class="spacer spacer--xxxl"></div>
+                    <div class="app flex">
+                        <div data-sketch-symbol="spacing/mobile/@spacing-xxxs" class="spacer spacer--xxxs"></div>
+                        <div data-sketch-symbol="spacing/mobile/@spacing-xxs" class="spacer spacer--xxs"></div>
+                        <div data-sketch-symbol="spacing/mobile/@spacing-xs" class="spacer spacer--xs"></div>
+                        <div data-sketch-symbol="spacing/mobile/@spacing-sm" class="spacer spacer--sm"></div>
+                        <div data-sketch-symbol="spacing/mobile/@spacing-md" class="spacer spacer--md"></div>
+                        <div data-sketch-symbol="spacing/mobile/@spacing-lg" class="spacer spacer--lg"></div>
+                        <div data-sketch-symbol="spacing/mobile/@spacing-xl" class="spacer spacer--xl"></div>
+                        <div data-sketch-symbol="spacing/mobile/@spacing-xxl" class="spacer spacer--xxl"></div>
+                        <div data-sketch-symbol="spacing/mobile/@spacing-xxxl" class="spacer spacer--xxxl"></div>
                     </div>
                 </div>
-                <h4>Horizontal</h4>
-                <p>Horizontal spacing units are derived from the pre-defined gutter size (typically 2rem).</p>
-                <p>Body, 16px/1.5; $gutter: 2rem (32px)</p>
+                <h4>Desktop</h4>
                 <div class="demo demo--light">
-                    <div class="app">
-                        <div class="spacer spacer--xs"></div>
-                        <div class="spacer spacer--sm"></div>
-                        <div class="spacer spacer--md"></div>
-                        <div class="spacer spacer--lg"></div>
-                        <div class="spacer spacer--xl"></div>
-                        <div class="spacer spacer--xxl"></div>
-                        <div class="spacer spacer--xxxl"></div>
+                    <div class="desktop flex">
+                        <div data-sketch-symbol="spacing/desktop/@spacing-xxxs" class="spacer spacer--xxxs"></div>
+                        <div data-sketch-symbol="spacing/desktop/@spacing-xxs" class="spacer spacer--xxs"></div>
+                        <div data-sketch-symbol="spacing/desktop/@spacing-xs" class="spacer spacer--xs"></div>
+                        <div data-sketch-symbol="spacing/desktop/@spacing-sm" class="spacer spacer--sm"></div>
+                        <div data-sketch-symbol="spacing/desktop/@spacing-md" class="spacer spacer--md"></div>
+                        <div data-sketch-symbol="spacing/desktop/@spacing-lg" class="spacer spacer--lg"></div>
+                        <div data-sketch-symbol="spacing/desktop/@spacing-xl" class="spacer spacer--xl"></div>
+                        <div data-sketch-symbol="spacing/desktop/@spacing-xxl" class="spacer spacer--xxl"></div>
+                        <div data-sketch-symbol="spacing/desktop/@spacing-xxxl" class="spacer spacer--xxxl"></div>
                     </div>
                 </div>
-            </section>
-            <section id="rules" class="text-component explain">
-                <h3>Rules</h3>
             </section>
         </div>
     </div>
