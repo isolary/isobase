@@ -25,7 +25,7 @@
                         <div data-sketch-symbol="spacing/mobile/@spacing-xxs" class="spacer spacer--xxs"></div>
                         <div data-sketch-symbol="spacing/mobile/@spacing-xs" class="spacer spacer--xs"></div>
                         <div data-sketch-symbol="spacing/mobile/@spacing-sm" class="spacer spacer--sm"></div>
-                        <div data-sketch-symbol="spacing/mobile/@spacing-md" class="spacer spacer--md flex--center"></div>
+                        <div data-sketch-symbol="spacing/mobile/@spacing-md" class="spacer spacer--md"></div>
                         <div data-sketch-symbol="spacing/mobile/@spacing-lg" class="spacer spacer--lg"></div>
                         <div data-sketch-symbol="spacing/mobile/@spacing-xl" class="spacer spacer--xl"></div>
                         <div data-sketch-symbol="spacing/mobile/@spacing-xxl" class="spacer spacer--xxl"></div>
@@ -39,7 +39,7 @@
                         <div data-sketch-symbol="spacing/desktop/@spacing-xxs" class="spacer spacer--xxs"></div>
                         <div data-sketch-symbol="spacing/desktop/@spacing-xs" class="spacer spacer--xs"></div>
                         <div data-sketch-symbol="spacing/desktop/@spacing-sm" class="spacer spacer--sm"></div>
-                        <div data-sketch-symbol="spacing/desktop/@spacing-md" class="spacer spacer--md flex--center"></div>
+                        <div data-sketch-symbol="spacing/desktop/@spacing-md" class="spacer spacer--md"></div>
                         <div data-sketch-symbol="spacing/desktop/@spacing-lg" class="spacer spacer--lg"></div>
                         <div data-sketch-symbol="spacing/desktop/@spacing-xl" class="spacer spacer--xl"></div>
                         <div data-sketch-symbol="spacing/desktop/@spacing-xxl" class="spacer spacer--xxl"></div>

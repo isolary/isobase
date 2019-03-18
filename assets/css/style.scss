@@ -22,9 +22,14 @@ html {
 @mixin star {
     content:"★";
     font-size: var(--text-xs);
-    line-height: 1;
+    line-height: 0;
     padding: var(--space-sm);
     color: var(--color-white);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
 }
 
 // Hide explanation for sketch file generation using this URL parameter: ?gen
@@ -211,6 +216,11 @@ h6 {
     width: var(--space-xxxl);
     height: var(--space-xxxl);
     margin-right: var(--space-md);
+    &:last-of-type {
+        margin-right: 0;
+    }
+
+    
     // Primary 
     &--color-primary-darker {
         background-color: var(--color-primary-darker);
