@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Isobase</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.min.css" />
+    <title>⬡ Isobase — A tokenized design/development framework kit starter with code as the source of truth.</title>
+
+    <!-- Codyhouse Util and Generated CSS -->
     <script>document.getElementsByTagName("html")[0].className += " js";</script>
     <link rel="stylesheet" href="dist/css/style.css" type="text/css">
 </head>
@@ -17,13 +18,15 @@
             <section class="introduction">
                 <div class="grid">
                     <div class="col--12">
-                        <?php include("./snippets/isobase-logo.php"); ?>
+                        <a href="/">
+                            <?php include("./snippets/isobase-logo.php"); ?>
+                        </a>
                     </div>
                     <div class="text-component  col--md-3">
                         <h1>Isobase</h1>
                     </div>
                     <div class="text-component col--md-8">
-                        <p class="lead text--md">An opinioniated approach to a tokenized design/development system starter with code as the source of truth. Just enough to get started, not enough to get overwhelmed.</p>
+                        <p class="lead text--md">A tokenized design/development framework kit starter with code as the source of truth. Opinionated, just enough to get started, not enough to get overwhelmed.</p>
                     </div>
                 </div>
             </section>

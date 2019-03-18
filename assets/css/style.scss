@@ -18,6 +18,15 @@ html {
     }
 }
 
+@mixin star {
+    content:"★";
+    font-size: var(--text-xs);
+    line-height: 1;
+    display: flex;
+    padding: var(--space-sm);
+    color: var(--color-white);
+}
+
 // Hide explanation for sketch file generation
 .gen .explain {
     margin: 0;
@@ -126,6 +135,11 @@ h6 {
     &--md {
         width: var(--space-md);
         height: var(--space-md);
+        &::before {
+            @include star;
+            font-size: 0.5rem;
+            padding: 0;
+        }
     }
     
     &--xxxxs {
@@ -176,5 +190,142 @@ h6 {
     &--xxxxl {
         width: var(--space-xxxxl);
         height: var(--space-xxxxl);
+    }
+}
+
+.color {
+    width: var(--space-xxxl);
+    height: var(--space-xxxl);
+    margin-right: var(--space-md);
+    // Primary 
+    &--color-primary-darker {
+        background-color: var(--color-primary-darker);
+    }
+    &--color-primary-dark {
+        background-color: var(--color-primary-dark);
+    }
+    &--color-primary {
+        background-color: var(--color-primary);
+        &::before {
+            @include star;
+        }
+    }
+    &--color-primary-light {
+        background-color: var(--color-primary-light);
+    }
+    &--color-primary-lighter {
+        background-color: var(--color-primary-lighter);
+    }
+    // Accent
+    &--color-accent-darker {
+        background-color: var(--color-accent-darker);
+    }
+    &--color-accent-dark {
+        background-color: var(--color-accent-dark);
+    }
+    &--color-accent {
+        background-color: var(--color-accent);
+        &::before {
+            @include star;
+        }
+    }
+    &--color-accent-light {
+        background-color: var(--color-accent-light);
+    }
+    &--color-accent-lighter {
+        background-color: var(--color-accent-lighter);
+    }
+    // Layout
+    &--color-black {
+        background-color: var(--color-black);
+        &::before {
+            @include star;
+        }
+    }
+    &--color-white {
+        background-color: var(--color-white);
+        &::before {
+            @include star;
+            color: var(--color-black);
+        }
+    }
+    // --Contrasts
+    &--color-bg {
+        background-color: var(--color-bg);
+        border: 2px solid var(--color-white);
+    }
+    &--color-contrast-lower {
+        background-color: var(--color-contrast-lower);
+        border: 2px solid var(--color-white);
+    }
+    &--color-contrast-low {
+        background-color: var(--color-contrast-low);
+    }
+    &--color-contrast-medium {
+        background-color: var(--color-contrast-medium);
+    }
+    &--color-contrast-high {
+        background-color: var(--color-contrast-high);
+    }
+    &--color-contrast-higher {
+        background-color: var(--color-contrast-higher);
+    }
+    // Feedback
+    // --Error
+    &--color-error-darker {
+        background-color: var(--color-error-darker);
+    }
+    &--color-error-dark {
+        background-color: var(--color-error-dark);
+    }
+    &--color-error {
+        background-color: var(--color-error);
+        &::before {
+            @include star;
+        }
+    }
+    &--color-error-light {
+        background-color: var(--color-error-light);
+    }
+    &--color-error-lighter {
+        background-color: var(--color-error-lighter);
+    }
+    // --Success
+    &--color-success-darker {
+        background-color: var(--color-success-darker);
+    }
+    &--color-success-dark {
+        background-color: var(--color-success-dark);
+    }
+    &--color-success {
+        background-color: var(--color-success);
+        &::before {
+            @include star;
+        }
+    }
+    &--color-success-light {
+        background-color: var(--color-success-light);
+    }
+    &--color-success-lighter {
+        background-color: var(--color-success-lighter);
+    }
+    // --Warning
+    &--color-warning-darker {
+        background-color: var(--color-warning-darker);
+    }
+    &--color-warning-dark {
+        background-color: var(--color-warning-dark);
+    }
+    &--color-warning {
+        background-color: var(--color-warning);
+        &::before {
+            @include star;
+        }
+    }
+    &--color-warning-light {
+        background-color: var(--color-warning-light);
+    }
+    &--color-warning-lighter {
+        background-color: var(--color-warning-lighter);
     }
 }
