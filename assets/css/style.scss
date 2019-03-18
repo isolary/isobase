@@ -18,16 +18,16 @@ html {
     }
 }
 
+// Mixin for star psuedo element
 @mixin star {
     content:"★";
     font-size: var(--text-xs);
     line-height: 1;
-    display: flex;
     padding: var(--space-sm);
     color: var(--color-white);
 }
 
-// Hide explanation for sketch file generation
+// Hide explanation for sketch file generation using this URL parameter: ?gen
 .gen .explain {
     margin: 0;
     padding: 0;
@@ -38,6 +38,11 @@ html {
     }
     .demo>* {
         display: inherit !important;
+        .spacer, .color {
+            &::before {
+                display: none;
+            }
+        }
     }
 }
 
@@ -70,6 +75,7 @@ section {
     }
 }
 
+// Sticky sidebar anchor navigation
 nav.sidebar {
     position: sticky;
     top: var(--space-lg);
@@ -94,16 +100,19 @@ nav.sidebar {
     }
 }
 
+// "Real" size displayed on desktop view
 .app, .mobile {
     font-size: 0.667em;
 }
 
+// Prose content styling
 .prose {
     &--mobile {
         font-size: 0.667em;
     }
 }
 
+// Demo container for easier scanning
 .demo {
     padding: var(--space-md);
     margin: var(--space-md) calc(var(--space-md) * -1); //Offset left, right inset
@@ -129,12 +138,16 @@ h6 {
     font-weight: 300;
 }
 
+
+// Spacer styling
 .spacer {
-    background-color: var(--color-primary-light);
+    background-color: magenta;
+    opacity: 0.75; //Opacity on this element for easy usage
     margin-right: var(--space-md);
     &--md {
         width: var(--space-md);
         height: var(--space-md);
+        // display: flex;
         &::before {
             @include star;
             font-size: 0.5rem;
@@ -193,6 +206,7 @@ h6 {
     }
 }
 
+// Color Block styling
 .color {
     width: var(--space-xxxl);
     height: var(--space-xxxl);

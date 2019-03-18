@@ -1900,6 +1900,10 @@ html {
   display: inherit !important;
 }
 
+.gen .explain .demo > * .spacer::before, .gen .explain .demo > * .color::before {
+  display: none;
+}
+
 .logo {
   width: 100px;
   align-self: center;
@@ -2028,8 +2032,8 @@ h6 {
 }
 
 .spacer {
-  background-color: hsl(220, 90%, 66%);
-  background-color: var(--color-primary-light);
+  background-color: magenta;
+  opacity: 0.75;
   margin-right: 1em;
   margin-right: var(--space-md);
 }
@@ -2046,7 +2050,6 @@ h6 {
   font-size: 0.69444em;
   font-size: var(--text-xs);
   line-height: 1;
-  display: flex;
   padding: 0.667em;
   padding: var(--space-sm);
   color: hsl(0, 0%, 100%);
@@ -2154,7 +2157,6 @@ h6 {
   font-size: 0.69444em;
   font-size: var(--text-xs);
   line-height: 1;
-  display: flex;
   padding: 0.667em;
   padding: var(--space-sm);
   color: hsl(0, 0%, 100%);
@@ -2191,7 +2193,6 @@ h6 {
   font-size: 0.69444em;
   font-size: var(--text-xs);
   line-height: 1;
-  display: flex;
   padding: 0.667em;
   padding: var(--space-sm);
   color: hsl(0, 0%, 100%);
@@ -2218,7 +2219,6 @@ h6 {
   font-size: 0.69444em;
   font-size: var(--text-xs);
   line-height: 1;
-  display: flex;
   padding: 0.667em;
   padding: var(--space-sm);
   color: hsl(0, 0%, 100%);
@@ -2235,7 +2235,6 @@ h6 {
   font-size: 0.69444em;
   font-size: var(--text-xs);
   line-height: 1;
-  display: flex;
   padding: 0.667em;
   padding: var(--space-sm);
   color: hsl(0, 0%, 100%);
@@ -2298,7 +2297,6 @@ h6 {
   font-size: 0.69444em;
   font-size: var(--text-xs);
   line-height: 1;
-  display: flex;
   padding: 0.667em;
   padding: var(--space-sm);
   color: hsl(0, 0%, 100%);
@@ -2335,7 +2333,6 @@ h6 {
   font-size: 0.69444em;
   font-size: var(--text-xs);
   line-height: 1;
-  display: flex;
   padding: 0.667em;
   padding: var(--space-sm);
   color: hsl(0, 0%, 100%);
@@ -2372,7 +2369,6 @@ h6 {
   font-size: 0.69444em;
   font-size: var(--text-xs);
   line-height: 1;
-  display: flex;
   padding: 0.667em;
   padding: var(--space-sm);
   color: hsl(0, 0%, 100%);
