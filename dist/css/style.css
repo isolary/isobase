@@ -1896,10 +1896,6 @@ html {
   display: none;
 }
 
-.gen .explain .demo > * {
-  display: inherit !important;
-}
-
 .gen .explain .demo > * .spacer::before, .gen .explain .demo > * .color::before {
   display: none;
 }

@@ -42,7 +42,6 @@ html {
         }
     }
     .demo>* {
-        display: inherit !important;
         .spacer, .color {
             &::before {
                 display: none;
