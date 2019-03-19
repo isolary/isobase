@@ -26,20 +26,20 @@
                 <h5>Styles</h5>
                 <div class="demo demo--light">
                     <div class="app">
-                        <button data-sketch-symbol="App/Button/Regular/Base" class="btn">Base</button>
-                        <button data-sketch-symbol="App/Button/Regular/Primary" class="btn btn--primary">Simple</button>
-                        <button data-sketch-symbol="App/Button/Regular/Subtle" class="btn btn--subtle">Subtle</button>
-                        <button data-sketch-symbol="App/Button/Regular/Accent" class="btn btn--accent">Accent</button>
-                        <button data-sketch-symbol="App/Button/Regular/Primary/Disabled" class="btn btn--primary btn--disabled">Disabled</button>
+                        <button data-sketch-symbol="App/Button/Base/Regular" class="btn">Base</button>
+                        <button data-sketch-symbol="App/Button/Primary/Regular" class="btn btn--primary">Simple</button>
+                        <button data-sketch-symbol="App/Button/Subtle/Regular" class="btn btn--subtle">Subtle</button>
+                        <button data-sketch-symbol="App/Button/Accent/Regular" class="btn btn--accent">Accent</button>
+                        <button data-sketch-symbol="App/Button/Primary/Disabled/Regular" class="btn btn--primary btn--disabled">Disabled</button>
                     </div>
                 </div>
                 <h5>Sizes</h5>
                 <div class="demo demo--light">
                     <div class="app">
-                        <button data-sketch-symbol="App/Button/Small/Primary" class="btn btn--primary btn--sm">Small</button>
-                        <button data-sketch-symbol="App/Button/Regular/Primary" class="btn btn--primary">Regular</button>
-                        <button data-sketch-symbol="App/Button/Medium/Primary" class="btn btn--primary btn--md">Medium</button>
-                        <button data-sketch-symbol="App/Button/Large/Primary" class="btn btn--primary btn--lg">Large</button>
+                        <button data-sketch-symbol="App/Button/Primary/Small" class="btn btn--primary btn--sm">Small</button>
+                        <button class="btn btn--primary">Regular</button>
+                        <button data-sketch-symbol="App/Button/Primary/Medium" class="btn btn--primary btn--md">Medium</button>
+                        <button data-sketch-symbol="App/Button/Primary/Large" class="btn btn--primary btn--lg">Large</button>
                     </div>
                 </div>
                 <h4>Desktop</h4>
@@ -47,20 +47,20 @@
                 <h5>Styles</h5>
                 <div class="demo demo--light">
                     <div class="desktop">
-                        <button data-sketch-symbol="Desktop/Button/Regular/Base" class="btn">Base</button>
-                        <button data-sketch-symbol="Desktop/Button/Regular/Primary" class="btn btn--primary">Simple</button>
-                        <button data-sketch-symbol="Desktop/Button/Regular/Subtle" class="btn btn--subtle">Subtle</button>
-                        <button data-sketch-symbol="Desktop/Button/Regular/Accent" class="btn btn--accent">Accent</button>
-                        <button data-sketch-symbol="Desktop/Button/Regular/Primary/Disabled" class="btn btn--primary btn--disabled">Disabled</button>
+                        <button data-sketch-symbol="Desktop/Button/Base/Regular" class="btn">Base</button>
+                        <button data-sketch-symbol="Desktop/Button/Primary/Regular" class="btn btn--primary">Simple</button>
+                        <button data-sketch-symbol="Desktop/Button/Subtle/Regular" class="btn btn--subtle">Subtle</button>
+                        <button data-sketch-symbol="Desktop/Button/Accent/Regular" class="btn btn--accent">Accent</button>
+                        <button data-sketch-symbol="Desktop/Button/Primary/Disabled/Regular" class="btn btn--primary btn--disabled">Disabled</button>
                     </div>
                 </div>
                 <h5>Sizes</h5>
                 <div class="demo demo--light">
                     <div class="desktop">
-                        <button data-sketch-symbol="App/Button/Small/Primary" class="btn btn--primary btn--sm">Small</button>
-                        <button data-sketch-symbol="App/Button/Regular/Primary" class="btn btn--primary">Regular</button>
-                        <button data-sketch-symbol="App/Button/Medium/Primary" class="btn btn--primary btn--md">Medium</button>
-                        <button data-sketch-symbol="App/Button/Large/Primary" class="btn btn--primary btn--lg">Large</button>
+                        <button data-sketch-symbol="Desktop/Button/Primary/Small" class="btn btn--primary btn--sm">Small</button>
+                        <button class="btn btn--primary">Regular</button>
+                        <button data-sketch-symbol="Desktop/Button/Primary/Medium" class="btn btn--primary btn--md">Medium</button>
+                        <button data-sketch-symbol="Desktop/Button/Primary/Large" class="btn btn--primary btn--lg">Large</button>
                     </div>
                 </div>
             </section>
@@ -72,16 +72,16 @@
                     <div class="app">
                         <form action="">
                             <fieldset>
-                                <legend class="form-legend">Form Legend</legend>
-                                <div class="margin-bottom">
-                                    <label class="form-label" for="">Name:</label>
+                                <legend data-sketch-text="App/Form/Legend" class="form-legend">Form Legend</legend>
+                                <div data-sketch-symbol="App/Form/Field/Regular, Label" class="margin-bottom">
+                                    <label data-sketch-text="App/Form/Label" class="form-label" for="">Name:</label>
                                     <input type="text" class="form-control">
                                 </div>
                                 <div class="margin-bottom">
                                     <label class="form-label" for="">Email:</label>
                                     <input type="text" class="form-control">
                                 </div>
-                                <div class="margin-bottom">
+                                <div data-sketch-symbol="App/Form/Field/Disabled" class="margin-bottom">
                                     <label class="form-label" for="">API Key (disabled, readonly)</label>
                                     <input type="text" class="form-control" disabled>
                                 </div>
@@ -90,11 +90,11 @@
                                 <legend class="form-legend">Checkboxes</legend>
                                     <div class="margin-bottom">
                                         <div class="checkbox-list checkbox-list--custom">
-                                            <div>
+                                            <div data-sketch-symbol="App/Form/Checkbox/Inline, Checked">
                                                 <input checked type="checkbox" name="" id="checkbox1">
                                                 <label for="checkbox1">Option 1</label>
                                             </div>
-                                            <div>
+                                            <div data-sketch-symbol="App/Form/Checkbox/Inline, Regular">
                                                 <input type="checkbox" name="" id="checkbox2">
                                                 <label for="checkbox2">Option 2</label>
                                             </div>
@@ -105,11 +105,11 @@
                                 <legend class="form-legend">Radios</legend>
                                     <div class="margin-bottom">
                                         <div class="radio-list radio-list--custom">
-                                            <div>
+                                            <div data-sketch-symbol="App/Form/Radio/Inline, Checked">
                                                 <input checked type="radio" name="" id="radio1">
                                                 <label for="radio1">Option 1</label>
                                             </div>
-                                            <div>
+                                            <div data-sketch-symbol="App/Form/Radio/Inline, Regular">
                                                 <input type="radio" name="" id="radio2">
                                                 <label for="radio2">Option 2</label>
                                             </div>
@@ -125,16 +125,16 @@
                     <div class="desktop">
                         <form action="#">
                             <fieldset>
-                                <legend class="form-legend">Form Legend</legend>
-                                <div class="margin-bottom">
-                                    <label class="form-label" for="">Name:</label>
+                                <legend data-sketch-text="Desktop/Form/Legend" class="form-legend">Form Legend</legend>
+                                <div data-sketch-symbol="Desktop/Form/Field/Regular, Label" class="margin-bottom">
+                                    <label data-sketch-text="Desktop/Form/Label" class="form-label" for="">Name:</label>
                                     <input type="text" class="form-control">
                                 </div>
                                 <div class="margin-bottom">
                                     <label class="form-label" for="">Email:</label>
                                     <input type="text" class="form-control">
                                 </div>
-                                <div class="margin-bottom">
+                                <div data-sketch-symbol="Desktop/Form/Field/Disabled" class="margin-bottom">
                                     <label class="form-label" for="">API Key (disabled, readonly)</label>
                                     <input type="text" class="form-control" disabled>
                                 </div>
@@ -143,11 +143,11 @@
                                 <legend class="form-legend">Checkboxes</legend>
                                     <div class="margin-bottom">
                                         <div class="checkbox-list checkbox-list--custom">
-                                            <div>
+                                            <div data-sketch-symbol="Desktop/Form/Checkbox/Inline, Checked">
                                                 <input checked type="checkbox" name="" id="checkbox-lg-1">
                                                 <label for="checkbox-lg-1">Option 1</label>
                                             </div>
-                                            <div>
+                                            <div data-sketch-symbol="Desktop/Form/Checkbox/Inline, Regular">
                                                 <input type="checkbox" name="" id="checkbox-lg-2">
                                                 <label for="checkbox-lg-2">Option 2</label>
                                             </div>
@@ -158,11 +158,11 @@
                                 <legend class="form-legend">Radios</legend>
                                     <div class="margin-bottom">
                                         <div class="radio-list radio-list--custom">
-                                            <div>
+                                            <div data-sketch-symbol="Desktop/Form/Radio/Inline, Checked">
                                                 <input checked type="radio" name="" id="radio-lg-1">
                                                 <label for="radio-lg-1">Option 1</label>
                                             </div>
-                                            <div>
+                                            <div data-sketch-symbol="Desktop/Form/Radio/Inline, Regular">
                                                 <input type="radio" name="" id="radio-lg-2">
                                                 <label for="radio-lg-2">Option 2</label>
                                             </div>
