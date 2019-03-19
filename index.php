@@ -7,6 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>⬡ Isobase — A tokenized design/development framework kit starter with code as the source of truth.</title>
 
+    <script
+  src="http://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>
+
     <!-- Codyhouse Util and Generated CSS -->
     <script>document.getElementsByTagName("html")[0].className += " js";</script>
     <link rel="stylesheet" href="dist/css/style.css" type="text/css">
@@ -54,6 +59,7 @@
         </article>
     </main>
 <script src="assets/js/util.js"></script>
+<script src="assets/js/color-grab.js"></script>
 </body>
 
 </html>
