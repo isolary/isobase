@@ -1,15 +1,8 @@
-.form-control { // basic form element style
-  padding: var(--space-xs) var(--space-sm);
-  background: var(--color-bg);
-  border: 2px solid var(--color-contrast-low);
+.form-control {
   width: 100%;
-
-  &:focus {
-    outline: none;
-    border-color: var(--color-primary);
-    --color-shadow: hsla(var(--color-primary-h), var(--color-primary-s), var(--color-primary-l), 0.2); // fix iOS 12 bug
-    box-shadow: 0 0 0 3px var(--color-shadow);
-  }
+  background-color: var(--color-bg);
+  padding: var(--space-xs) var(--space-sm) var(--space-xs) var(--space-sm);
+  border: 2px solid var(--color-contrast-low);
 
   &::-webkit-input-placeholder {
     color: var(--color-contrast-medium);
@@ -27,35 +20,41 @@
   &:-moz-placeholder {
     color: var(--color-contrast-medium);
   }
+
+  &:focus {
+    border: 2px solid var(--color-primary);
+    --color-shadow: hsla(var(--color-primary-h), var(--color-primary-s), var(--color-primary-l), 0.2);
+    box-shadow: 0px 0px 0px 3px var(--color-shadow);
+    outline: none;
+  }
 }
 
 .form-control[disabled], .form-control[readonly] {
+  background-color: var(--color-contrast-lower);
   cursor: not-allowed;
 }
 
 .form-control[aria-invalid="true"] {
-  border-color: var(--color-error);
+  border: 2px solid var(--color-error);
 
   &:focus {
-    --color-shadow: hsla(var(--color-error-h), var(--color-error-s), var(--color-error-l), 0.2); // fix iOS 12 bug
-    box-shadow: 0 0 0 3px var(--color-shadow);
+    --color-shadow: hsla(var(--color-error-h), var(--color-error-s), var(--color-error-l), 0.2);
+    box-shadow: 0px 0px 0px 3px var(--color-shadow);
   }
 }
 
 .form-legend {
   color: var(--color-contrast-higher);
-  line-height: 1.2;
   font-size: var(--text-md);
   margin-bottom: var(--space-xxs);
 }
 
-.form-label { // label style
+.form-label {
   display: inline-block;
   font-size: var(--text-sm);
   margin-bottom: var(--space-xxxs);
 }
 
-// error message
 .form__msg-error {
   background-color: var(--color-error);
   color: var(--color-white);
@@ -84,7 +83,7 @@
   clip: auto;
 }
 
-// radio and checkbox lists
+//radio and checkbox lists
 .radio-list, .checkbox-list {
   > * {
     position: relative;
@@ -119,3 +118,7 @@
     }
   }
 }
+
+// Import custom forms components from Codyhouse components
+
+@import 'global/forms-custom';
