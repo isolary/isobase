@@ -1569,6 +1569,21 @@ u {
   padding: var(--space-xs);
 }
 
+.btn:focus {
+  --color-shadow: hsla(220, 90%, 56%, 0.2);
+  --color-shadow: hsla(var(--color-primary-h), var(--color-primary-s), var(--color-primary-l), 0.2);
+  box-shadow: undefined;
+  box-shadow: 0px 0px 0px 3px var(--color-shadow);
+  outline-color: transparent;
+  outline-width: 3px;
+  outline-style: dotted;
+}
+
+.btn:focus:focus{
+  box-shadow: 0px 0px 0px 3px hsla(220, 90%, 56%, 0.2);
+  box-shadow: 0px 0px 0px 3px var(--color-shadow);
+}
+
 .form-control {
   width: 100%;
   background-color: hsl(0, 0%, 100%);
