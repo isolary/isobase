@@ -2356,8 +2356,13 @@ nav.sidebar ul.sidebar__list li.sidebar__list-item a {
 .demo {
   padding: 1em;
   padding: var(--space-md);
-  margin: 1em -1em;
-  margin: var(--space-md) calc(var(--space-md)*-1);
+}
+
+@media (min-width: 64rem) {
+  .demo {
+    margin: 1em -1em;
+    margin: var(--space-md) calc(var(--space-md)*-1);
+  }
 }
 
 .demo--light {
