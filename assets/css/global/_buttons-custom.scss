@@ -1,0 +1,11 @@
+.btn {
+    &:focus {
+        // Nicer focus styles
+        --color-shadow: hsla(var(--color-primary-h), var(--color-primary-s), var(--color-primary-l), 0.2);
+        box-shadow: 0px 0px 0px 3px var(--color-shadow);
+        // Retain styles for Windows High contrast mode, https://stackoverflow.com/questions/52589391/css-box-shadow-vs-outline
+        outline-color: transparent;
+        outline-width: 3px;
+        outline-style: dotted;
+    }
+}

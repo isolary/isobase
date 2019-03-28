@@ -119,7 +119,9 @@ nav.sidebar {
 // Demo container for easier scanning
 .demo {
     padding: var(--space-md);
-    margin: var(--space-md) calc(var(--space-md) * -1); //Offset left, right inset
+    @include breakpoint(md) {
+        margin: var(--space-md) calc(var(--space-md) * -1); //Offset left, right inset
+    }
     &--light {
         background-color: var(--color-contrast-lower);
     }
