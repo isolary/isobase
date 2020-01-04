@@ -19,7 +19,7 @@
 
 <body <?php if ( isset( $_GET['gen'] ) ) echo 'class="gen"' ?>>
     <header class="intro-wrapper">
-        <div class="container container--xl">
+        <div class="container container--lg">
             <section class="introduction">
                 <div class="grid">
                     <div class="col--12">
@@ -37,7 +37,7 @@
             </section>
         </div>
     </header>
-    <main class="container container--xl">
+    <main class="container container--lg">
         <article class="content">
             <?php
                 //Pulls in each section of the page from the "sections" folder

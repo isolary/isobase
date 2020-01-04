@@ -17,7 +17,7 @@
         </div>
         <div class="col--md-8">
             <section class="section-lead text-component explain">
-                <p class="lead text--md">Atoms define decisions being made after choices (toekns) are established.</p>
+                <p class="lead text--md">Atoms define decisions being made after choices (tokens) are established.</p>
             </section>
             <section id="buttons" class="text-component explain">
                 <h3>Buttons</h3>

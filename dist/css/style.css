@@ -409,6 +409,7 @@ img, video, svg {
 }
 
 .grid {
+  display: -webkit-box;
   display: flex;
   flex-wrap: wrap;
   margin: -1em 0 0 -1em;
@@ -471,7 +472,8 @@ img, video, svg {
 }
 
 .col {
-  flex-grow: 1;
+  -webkit-box-flex: 1;
+          flex-grow: 1;
   flex-basis: 0;
   max-width: 100%;
 }
@@ -538,7 +540,8 @@ img, video, svg {
 
 @media (min-width: 30rem) {
   .col--xs {
-    flex-grow: 1;
+    -webkit-box-flex: 1;
+            flex-grow: 1;
     flex-basis: 0;
     max-width: 100%;
   }
@@ -594,7 +597,8 @@ img, video, svg {
 
 @media (min-width: 37.5rem) {
   .col--sm {
-    flex-grow: 1;
+    -webkit-box-flex: 1;
+            flex-grow: 1;
     flex-basis: 0;
     max-width: 100%;
   }
@@ -650,7 +654,8 @@ img, video, svg {
 
 @media (min-width: 64rem) {
   .col--md {
-    flex-grow: 1;
+    -webkit-box-flex: 1;
+            flex-grow: 1;
     flex-basis: 0;
     max-width: 100%;
   }
@@ -706,7 +711,8 @@ img, video, svg {
 
 @media (min-width: 80rem) {
   .col--lg {
-    flex-grow: 1;
+    -webkit-box-flex: 1;
+            flex-grow: 1;
     flex-basis: 0;
     max-width: 100%;
   }
@@ -762,7 +768,8 @@ img, video, svg {
 
 @media (min-width: 90rem) {
   .col--xl {
-    flex-grow: 1;
+    -webkit-box-flex: 1;
+            flex-grow: 1;
     flex-basis: 0;
     max-width: 100%;
   }
@@ -817,6 +824,7 @@ img, video, svg {
 }
 
 .flex {
+  display: -webkit-box;
   display: flex;
 }
 
@@ -829,28 +837,36 @@ img, video, svg {
 }
 
 .flex--column {
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
 }
 
 .flex--end {
-  justify-content: flex-end;
+  -webkit-box-pack: end;
+          justify-content: flex-end;
 }
 
 .flex--center {
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
 }
 
 .flex--center-x {
-  justify-content: center;
+  -webkit-box-pack: center;
+          justify-content: center;
 }
 
 .flex--center-y {
-  align-items: center;
+  -webkit-box-align: center;
+          align-items: center;
 }
 
 .flex--space-between {
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
 }
 
 .flex--space-around {
@@ -858,11 +874,13 @@ img, video, svg {
 }
 
 .flex--space-evenly {
-  justify-content: space-evenly;
+  -webkit-box-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .flex--grow > * {
-  flex-grow: 1;
+  -webkit-box-flex: 1;
+          flex-grow: 1;
 }
 
 .flex--shrink-none > * {
@@ -1003,7 +1021,8 @@ img, video, svg {
 }
 
 .flex-item--grow {
-  flex-grow: 1;
+  -webkit-box-flex: 1;
+          flex-grow: 1;
 }
 
 .flex-item--shrink-none {
@@ -1433,8 +1452,10 @@ u {
 }
 
 .icon-text {
+  display: -webkit-inline-box;
   display: inline-flex;
-  align-items: center;
+  -webkit-box-align: center;
+          align-items: center;
 }
 
 .icon-text > *:nth-child(2) {
@@ -1484,11 +1505,14 @@ u {
 }
 
 .btn {
+  display: -webkit-inline-box;
   display: inline-flex;
   position: relative;
   white-space: nowrap;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
   border-radius: 0.25em;
   cursor: pointer;
   padding: 0.444em 0.667em 0.444em 0.667em;
@@ -1546,6 +1570,7 @@ u {
 }
 
 .btn--full-width {
+  display: -webkit-box;
   display: flex;
   width: 100%;
 }
@@ -1556,7 +1581,8 @@ u {
 }
 
 .btn--icon-text {
-  align-items: center;
+  -webkit-box-align: center;
+          align-items: center;
 }
 
 .btn--icon-text > *:nth-child(2) {
@@ -1716,16 +1742,20 @@ u {
 
 .radio-list > * {
   position: relative;
+  display: -webkit-box;
   display: flex;
-  align-items: baseline;
+  -webkit-box-align: baseline;
+          align-items: baseline;
   margin-bottom: 0.296em;
   margin-bottom: var(--space-xxs);
 }
 
 .checkbox-list > * {
   position: relative;
+  display: -webkit-box;
   display: flex;
-  align-items: baseline;
+  -webkit-box-align: baseline;
+          align-items: baseline;
   margin-bottom: 0.296em;
   margin-bottom: var(--space-xxs);
 }
@@ -1767,24 +1797,28 @@ u {
 }
 
 .radio-list.radio-list--inline {
+  display: -webkit-box;
   display: flex;
   margin-bottom: -1em;
   margin-bottom: calc(-1*var(--space-md));
 }
 
 .radio-list.checkbox-list--inline {
+  display: -webkit-box;
   display: flex;
   margin-bottom: -1em;
   margin-bottom: calc(-1*var(--space-md));
 }
 
 .checkbox-list.radio-list--inline {
+  display: -webkit-box;
   display: flex;
   margin-bottom: -1em;
   margin-bottom: calc(-1*var(--space-md));
 }
 
 .checkbox-list.checkbox-list--inline {
+  display: -webkit-box;
   display: flex;
   margin-bottom: -1em;
   margin-bottom: calc(-1*var(--space-md));
@@ -1844,8 +1878,10 @@ Descr: Custom radio and checkbox buttons
 .radio-list--custom input[type="radio"] + label,
 .radio-list--custom input[type="checkbox"] + label, .checkbox-list--custom input[type="radio"] + label,
 .checkbox-list--custom input[type="checkbox"] + label {
+  display: -webkit-inline-box;
   display: inline-flex;
-  align-items: flex-start;
+  -webkit-box-align: start;
+          align-items: flex-start;
 }
 
 .radio-list--custom input[type="radio"] + label::before {
@@ -1868,6 +1904,7 @@ Descr: Custom radio and checkbox buttons
   position: relative;
   top: 0.15em;
   top: var(--checkbox-radio-translate-y);
+  -webkit-transition: -webkit-transform 0.2s;
   transition: -webkit-transform 0.2s;
   transition: transform 0.2s;
   transition: transform 0.2s, -webkit-transform 0.2s;
@@ -1893,6 +1930,7 @@ Descr: Custom radio and checkbox buttons
   position: relative;
   top: 0.15em;
   top: var(--checkbox-radio-translate-y);
+  -webkit-transition: -webkit-transform 0.2s;
   transition: -webkit-transform 0.2s;
   transition: transform 0.2s;
   transition: transform 0.2s, -webkit-transform 0.2s;
@@ -1918,6 +1956,7 @@ Descr: Custom radio and checkbox buttons
   position: relative;
   top: 0.15em;
   top: var(--checkbox-radio-translate-y);
+  -webkit-transition: -webkit-transform 0.2s;
   transition: -webkit-transform 0.2s;
   transition: transform 0.2s;
   transition: transform 0.2s, -webkit-transform 0.2s;
@@ -1943,6 +1982,7 @@ Descr: Custom radio and checkbox buttons
   position: relative;
   top: 0.15em;
   top: var(--checkbox-radio-translate-y);
+  -webkit-transition: -webkit-transform 0.2s;
   transition: -webkit-transform 0.2s;
   transition: transform 0.2s;
   transition: transform 0.2s, -webkit-transform 0.2s;
@@ -2006,6 +2046,7 @@ Descr: Custom radio and checkbox buttons
 .checkbox-list--custom input[type="checkbox"]:checked:active + label::before {
   -webkit-transform: none;
           transform: none;
+  -webkit-transition: none;
   transition: none;
 }
 
@@ -2442,10 +2483,15 @@ h6 {
   padding: var(--space-sm);
   color: hsl(0, 0%, 100%);
   color: var(--color-white);
+  display: -webkit-box;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
   height: 100%;
   font-size: 0.5rem;
   padding: 0;
@@ -2558,10 +2604,15 @@ h6 {
   padding: var(--space-sm);
   color: hsl(0, 0%, 100%);
   color: var(--color-white);
+  display: -webkit-box;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
   height: 100%;
 }
 
@@ -2599,10 +2650,15 @@ h6 {
   padding: var(--space-sm);
   color: hsl(0, 0%, 100%);
   color: var(--color-white);
+  display: -webkit-box;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
   height: 100%;
 }
 
@@ -2630,10 +2686,15 @@ h6 {
   padding: var(--space-sm);
   color: hsl(0, 0%, 100%);
   color: var(--color-white);
+  display: -webkit-box;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
   height: 100%;
 }
 
@@ -2651,10 +2712,15 @@ h6 {
   padding: var(--space-sm);
   color: hsl(0, 0%, 100%);
   color: var(--color-white);
+  display: -webkit-box;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
   height: 100%;
   color: hsl(240, 8%, 12%);
   color: var(--color-black);
@@ -2718,10 +2784,15 @@ h6 {
   padding: var(--space-sm);
   color: hsl(0, 0%, 100%);
   color: var(--color-white);
+  display: -webkit-box;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
   height: 100%;
 }
 
@@ -2759,10 +2830,15 @@ h6 {
   padding: var(--space-sm);
   color: hsl(0, 0%, 100%);
   color: var(--color-white);
+  display: -webkit-box;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
   height: 100%;
 }
 
@@ -2800,10 +2876,15 @@ h6 {
   padding: var(--space-sm);
   color: hsl(0, 0%, 100%);
   color: var(--color-white);
+  display: -webkit-box;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
   height: 100%;
 }
 
