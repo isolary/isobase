@@ -14,8 +14,8 @@
   "license": "ISC",
   "dependencies": {
     "@brainly/html-sketchapp": "^4.2.0",
-    "autoprefixer": "^9.4.9",
-    "gulp": "^4.0.0",
+    "autoprefixer": "^9.6.1",
+    "gulp": "^4.0.2",
     "gulp-postcss": "^8.0.0",
     "gulp-sass": "^4.0.2",
     "html-sketchapp-cli": "^0.6.2",
