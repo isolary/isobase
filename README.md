@@ -1,16 +1,14 @@
-Isobase is a proof of concept of an internal tool we decided to build for ourselves to streamline our design an development process. Early test versions were used to kickstart a few projects as we distilled how and why things should be built. 
-
-Over time, we took these underlying concepts and decisions and baked them into our process in evaluating tooling on a per-project basis. 
-
-Read more about it [on our blog](https://isolary.com/blog/isobase)
-
--------
+> Isobase is a proof of concept of an internal tool we decided to build for ourselves to streamline our design an development process. Early test versions were used to kickstart a few projects as we distilled how and why things should be built. 
+> 
+> Over time, we took these underlying concepts and decisions and baked them into our process in evaluating tooling on a per-project basis. 
+> 
+> Read more about it [on our blog](https://isolary.com/blog/isobase)
 
 ![isobase](/assets/images/isobase-title.png)
 
 # Isobase
 
-_An extendable starter design/development framework kit aimed at starting with the basics + a few common components._
+_A tokenized design/development framework kit starter with code as the source of truth. Opinionated, just enough to get started, not enough to get overwhelmed._
 
 [Demo](https://isobase.isolary.com)
 
@@ -29,7 +27,7 @@ _An extendable starter design/development framework kit aimed at starting with t
 
 -------
 
-How to compile CSS:
+### How to compile CSS:
 
 1. Make sure you're in the root
 2. Install dependencies `npm i`
@@ -39,7 +37,7 @@ How to compile CSS:
 
 -------
 
-How to open/convert .asketch files:
+### How to open/convert .asketch files:
 
 1. `npm i` (if you didn't already), then run `html-sketchapp install` to install the Sketch plugin (if you intend to create a Sketch file)
 2. Run `html-sketchapp` in the root of the project
@@ -50,6 +48,6 @@ How to open/convert .asketch files:
 
 -------
 
-Options:
+### Options:
 
 - Append `?gen` to the URL (local or otherwise) for the generator view
