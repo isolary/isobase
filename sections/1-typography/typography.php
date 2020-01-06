@@ -1,6 +1,6 @@
 <section id="<?php echo basename(__FILE__, '.php'); ?>">
     <div class="grid">
-        <div class="col--md-3">
+        <div class="col--md-4">
             <nav class="sidebar text-component">
                 <ul class="sidebar__list">
                     <li class="sidebar__list-item">

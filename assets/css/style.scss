@@ -107,6 +107,17 @@ nav.sidebar {
 // "Real" size displayed on desktop view
 .app, .mobile {
     font-size: 0.667em;
+    flex-direction: column;
+    @include breakpoint(md) {
+        flex-direction: row;
+    }
+}
+
+.desktop {
+    flex-direction: column;
+    @include breakpoint(md) {
+        flex-direction: row;
+    }
 }
 
 // Prose content styling
@@ -151,6 +162,7 @@ h6 {
     background-color: magenta;
     opacity: 0.75; //Opacity on this element for easy usage
     margin-right: var(--space-md);
+    margin-bottom: var(--space-md);
     &--md {
         width: var(--space-md);
         height: var(--space-md);
@@ -215,9 +227,9 @@ h6 {
 
 // Color Block styling
 .color {
-    width: var(--space-xxxl);
+    width: 100%;
     height: var(--space-xxxl);
-    margin-right: var(--space-md);
+    // margin-right: var(--space-md);
     &:last-of-type {
         margin-right: 0;
     }

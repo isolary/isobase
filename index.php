@@ -27,8 +27,8 @@
                             <?php include("./snippets/isobase-logo.php"); ?>
                         </a>
                     </div>
-                    <div class="text-component  col--md-3">
-                        <h1>Isobase</h1>
+                    <div class="text-component  col--md-4">
+                        <h1 class="text--xxxl">Isobase</h1>
                     </div>
                     <div class="text-component col--md-8">
                         <p class="lead text--md">A tokenized design/development framework kit starter with code as the source of truth. Opinionated, just enough to get started, not enough to get overwhelmed.</p>
