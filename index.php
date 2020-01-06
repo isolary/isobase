@@ -19,7 +19,7 @@
 
 <body <?php if ( isset( $_GET['gen'] ) ) echo 'class="gen"' ?>>
     <header class="intro-wrapper">
-        <div class="container container--xl">
+        <div class="container container--lg">
             <section class="introduction">
                 <div class="grid">
                     <div class="col--12">
@@ -27,8 +27,8 @@
                             <?php include("./snippets/isobase-logo.php"); ?>
                         </a>
                     </div>
-                    <div class="text-component  col--md-3">
-                        <h1>Isobase</h1>
+                    <div class="text-component  col--md-4">
+                        <h1 class="text--xxxl">Isobase</h1>
                     </div>
                     <div class="text-component col--md-8">
                         <p class="lead text--md">A tokenized design/development framework kit starter with code as the source of truth. Opinionated, just enough to get started, not enough to get overwhelmed.</p>
@@ -37,7 +37,7 @@
             </section>
         </div>
     </header>
-    <main class="container container--xl">
+    <main class="container container--lg">
         <article class="content">
             <?php
                 //Pulls in each section of the page from the "sections" folder

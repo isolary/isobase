@@ -1,6 +1,6 @@
 <section id="<?php echo basename(__FILE__, '.php'); ?>">
     <div class="grid">
-        <div class="col--md-3">
+        <div class="col--md-4">
             <nav class="sidebar text-component">
                 <ul class="sidebar__list">
                     <li class="sidebar__list-item">
@@ -17,7 +17,7 @@
         </div>
         <div class="col--md-8">
             <section class="section-lead text-component explain">
-                <p class="lead text--md">Atoms define decisions being made after choices (toekns) are established.</p>
+                <p class="lead text--md">Atoms define decisions being made after choices (tokens) are established.</p>
             </section>
             <section id="buttons" class="text-component explain">
                 <h3>Buttons</h3>
