@@ -1,8 +1,6 @@
 > Isobase is a proof of concept of an internal tool we decided to build for ourselves to streamline our design an development process. Early test versions were used to kickstart a few projects as we distilled how and why things should be built. 
 > 
 > Over time, we took these underlying concepts and decisions and baked them into our process in evaluating tooling on a per-project basis. 
-> 
-> Read more about it [on our blog](https://isolary.com/blog/isobase)
 
 ![isobase](/assets/images/isobase-title.png)
 
@@ -10,18 +8,14 @@
 
 _A tokenized design/development framework kit starter with code as the source of truth. Opinionated, just enough to get started, not enough to get overwhelmed._
 
-[Demo](https://isobase.isolary.com)
-
 1. Isobase is heavily inspired by Ether (by we the scenery). Ether is an opinionated design system that is built with typography at it’s core. Sizes and spacing are derived mathematically from the schematics of the typeface itself. We will build on these core principles for extending Isobase. [More on Ether](https://ether.thescenery.co/)
 
 2. Isobase is meant to be extendable/configurable.
-
 - Can alternatively use 8px grid
 - Can be extended to included react components
 - Can utilize 3rd party libraries
 
 3. Isobase is meant to build design systems with code as the source of truth.
-
 - Can be exported to a sketch file via [html-sketchapp-cli](https://github.com/seek-oss/html-sketchapp-cli) and [html-sketchapp](https://github.com/brainly/html-sketchapp)
 - Provides the structure for documenting tokens, decisions, and usage gudelines.
 
