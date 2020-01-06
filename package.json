@@ -1,7 +1,7 @@
 {
   "name": "isobase",
   "version": "1.0.0",
-  "description": "Themeable design system starter.",
+  "description": "A tokenized design/development framework kit starter with code as the source of truth. ",
   "scripts": {
     "gulp": "gulp",
     "html-sketchapp-install": "html-sketchapp install"
